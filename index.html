@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nyusun Jadwal by Lookman</title>
+    <style>
+        :root {
+            --primary-color: #4A4E69; --secondary-color: #9A8C98; --background-color: #F2E9E4;
+            --card-bg-color: #FFFFFF; --text-color: #22223B; --border-color: #C9ADA7; --header-bg: #6D6A75;
+            --danger-color: #c94f4f;
+        }
+        body { font-family: 'Segoe UI', sans-serif; background-color: var(--background-color); color: var(--text-color); margin: 0; padding: 0; }
+        .page-header { text-align: center; padding: 20px; font-size: 2em; color: var(--primary-color); }
+        .container { max-width: 1200px; margin: auto; padding: 0 20px 20px 20px; }
+        .page-footer { text-align: center; padding: 20px; margin-top: 40px; font-size: 0.9em; color: var(--secondary-color); border-top: 1px solid var(--border-color); }
+        
+        /* Navigasi Tab */
+        .tab-nav { display: flex; border: 1px solid var(--border-color); border-radius: 8px; overflow: hidden; margin-bottom: 20px; }
+        .tab-button {
+            flex: 1; padding: 15px; border: none; background-color: var(--card-bg-color);
+            color: var(--primary-color); font-size: 1em; font-weight: bold; cursor: pointer;
+            transition: background-color 0.3s;
+            border-right: 1px solid var(--border-color);
+        }
+        .tab-button:last-child { border-right: none; }
+        .tab-button.active { background-color: var(--primary-color); color: white; }
+        .tab-button:not(.active):hover { background-color: #e9e2de; }
+
+        /* Kontainer View */
+        .view-container { display: none; }
+        .view-container.active { display: block; }
+        
+        /* Layout untuk View Pilih Matkul */
+        .pilih-matkul-layout { display: flex; gap: 20px; align-items: flex-start; }
+        #left-panel { flex: 2; }
+        #right-panel { flex: 1; position: sticky; top: 20px; }
+        
+        h2 { font-size: 1.5em; text-align: left; border: none; padding: 0; margin: 0; }
+        .summary-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid var(--border-color); padding-bottom: 10px; }
+        #reset-button {
+            background-color: transparent; color: var(--danger-color); border: 1px solid var(--danger-color);
+            border-radius: 5px; padding: 5px 10px; font-size: 0.8em; font-weight: bold; cursor: pointer;
+        }
+        #reset-button:hover { background-color: var(--danger-color); color: white; }
+
+        .course-card { background-color: var(--card-bg-color); border: 1px solid var(--border-color); border-radius: 8px; margin-bottom: 15px; padding: 15px; }
+        .course-header { font-size: 1.1em; font-weight: bold; margin-bottom: 5px; }
+        .course-subheader { font-size: 0.85em; color: #555; margin-bottom: 10px; }
+        .class-item { padding: 10px 0; border-top: 1px dashed var(--border-color); display: flex; align-items: flex-start; }
+        .class-item:first-of-type { border-top: none; }
+        .class-info { margin-left: 10px; }
+        .class-info strong { display: block; }
+        .class-info .details { font-size: 0.9em; color: #555; display: block; margin-top: 4px; line-height: 1.6; }
+        
+        #selected-classes-panel { background-color: var(--card-bg-color); border-radius: 8px; padding: 15px; border: 1px solid var(--border-color); }
+        #selected-list-header { display: grid; grid-template-columns: 3fr 2fr 1fr; padding-bottom: 10px; padding-top: 5px; border-bottom: 1px solid var(--border-color); font-weight: bold; font-size: 0.9em; }
+        #selected-list-content { margin-top: 10px; max-height: 50vh; overflow-y: auto; }
+        .selected-item { display: grid; grid-template-columns: 3fr 2fr 1fr; padding: 12px 4px; font-size: 0.9em; border-bottom: 1px dashed var(--border-color); align-items: center; }
+        .selected-item span:last-child { text-align: center; }
+        .selected-item:last-child { border-bottom: none; }
+        #selected-list-footer { display: flex; justify-content: space-between; padding: 15px; margin: 15px -15px -15px -15px; background-color: #333; color: white; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; font-weight: bold; }
+
+        /* List & Calendar View */
+        .list-table { width: 100%; border-collapse: collapse; background-color: var(--card-bg-color); border-radius: 8px; overflow: hidden; }
+        .list-table th, .list-table td { padding: 12px 15px; text-align: left; border-bottom: 1px solid var(--border-color); }
+        .list-table th { background-color: var(--header-bg); color: white; font-size: 0.9em; text-transform: uppercase; }
+        .list-table tfoot td { font-weight: bold; font-size: 1.1em; }
+        .list-table td { font-size: 0.95em; line-height: 1.5; }
+        #timetable { display: grid; grid-template-columns: 60px repeat(6, 1fr); grid-template-rows: 40px repeat(24, 30px); background-color: var(--card-bg-color); border-radius: 8px; border: 1px solid var(--border-color); }
+        .grid-header { background-color: var(--header-bg); color: white; font-weight: bold; display: flex; align-items: center; justify-content: center; font-size: 0.9em; border-right: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color); }
+        .grid-header:last-child { border-right: none; }
+        .time-slot { font-size: 0.8em; font-weight: bold; background-color: var(--header-bg); color: white; display: flex; align-items: center; justify-content: center; border-right: 1px solid var(--border-color); border-bottom: 1px dotted var(--border-color); }
+        .time-separator { grid-column: 2 / 8; border-bottom: 1px dotted var(--border-color); z-index: 1; }
+        .schedule-block { background-color: #a99ca1; color: white; border-radius: 4px; padding: 5px; font-size: 0.8em; overflow: hidden; z-index: 10; }
+        .block-time { font-weight: bold; font-size: 0.9em; margin-bottom: 3px; }
+        .block-classname { margin-bottom: 3px; }
+        .block-room { font-size: 0.9em; opacity: 0.9; }
+    </style>
+</head>
+<body>
+
+    <header class="page-header">
+        Nyusun Jadwal by Lookman
+    </header>
+
+    <div class="container">
+        <div class="tab-nav">
+            <button id="btn-pilih-view" class="tab-button active">Pilih Matkul</button>
+            <button id="btn-list-view" class="tab-button">List Matkul</button>
+            <button id="btn-calendar-view" class="tab-button">Kalender Matkul</button>
+        </div>
+
+        <div id="pilih-view" class="view-container active">
+            <div class="pilih-matkul-layout">
+                <div id="left-panel">
+                    <div id="course-list">
+                        <p>Memuat data mata kuliah...</p>
+                    </div>
+                </div>
+                <div id="right-panel">
+                    <div id="selected-classes-panel">
+                        <div class="summary-header">
+                            <h2>Kelas Pilihan</h2>
+                            <button id="reset-button">Reset</button>
+                        </div>
+                        <div id="selected-list-header">
+                            <span>Kelas</span>
+                            <span>Waktu</span>
+                            <span>SKS</span>
+                        </div>
+                        <div id="selected-list-content"></div>
+                        <div id="selected-list-footer">
+                            <span>Total SKS</span>
+                            <span id="summary-sks-total">0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="list-view" class="view-container">
+            <table class="list-table">
+                <thead><tr><th>Nama Kelas</th><th>Waktu</th><th>Ruang</th><th>Dosen</th><th>SKS</th></tr></thead>
+                <tbody id="list-view-body"></tbody>
+                <tfoot><tr><td colspan="4">Total SKS</td><td id="list-sks-total">0</td></tr></tfoot>
+            </table>
+        </div>
+
+        <div id="calendar-view" class="view-container">
+            <div id="timetable"></div>
+        </div>
+    </div>
+    
+    <footer class="page-footer">
+        Made by Lookman EE'24 with Gemini
+    </footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    // --- STATE & DATA ---
+    let courseData = [];
+    let selectedClasses = JSON.parse(localStorage.getItem('jadwalPilihan')) || [];
+
+    // --- ELEMEN DOM ---
+    const allViews = document.querySelectorAll('.view-container');
+    const allButtons = document.querySelectorAll('.tab-button');
+    // View: Pilih Matkul
+    const courseListContainer = document.getElementById('course-list');
+    const summaryContent = document.getElementById('selected-list-content');
+    const summarySksTotal = document.getElementById('summary-sks-total');
+    const resetButton = document.getElementById('reset-button');
+    // View: List Matkul
+    const listViewBody = document.getElementById('list-view-body');
+    const listSksTotal = document.getElementById('list-sks-total');
+    // View: Kalender Matkul
+    const timetableElement = document.getElementById('timetable');
+
+    // --- LOGIKA TAB ---
+    allButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const targetViewId = button.id.replace('btn-', ''); // e.g., "pilih-view"
+            allButtons.forEach(btn => btn.classList.remove('active'));
+            allViews.forEach(view => view.classList.remove('active'));
+            button.classList.add('active');
+            document.getElementById(targetViewId).classList.add('active');
+        });
+    });
+
+    // --- LOGIKA RESET ---
+    resetButton.addEventListener('click', () => {
+        if (selectedClasses.length > 0 && confirm('Anda yakin ingin mereset semua pilihan?')) {
+            selectedClasses = [];
+            updateAllUI();
+            // Hapus centang di UI
+            document.querySelectorAll('input[type="checkbox"]:checked').forEach(cb => { cb.checked = false; });
+        }
+    });
+
+    // --- FUNGSI-FUNGSI UTAMA ---
+    function timeToMinutes(timeStr) {
+        const formattedTime = timeStr.replace('.', ':');
+        const [hours, minutes] = formattedTime.split(':').map(Number);
+        return hours * 60 + minutes;
+    }
+
+    function detectConflict(newClass, existingSchedule) {
+        // ... (Fungsi ini tidak berubah)
+        for (const scheduleStr of newClass.jadwal) {
+            const [hari, waktu] = scheduleStr.split(', ');
+            const [mulaiStr, selesaiStr] = waktu.split('-');
+            const newStart = timeToMinutes(mulaiStr);
+            const newEnd = timeToMinutes(selesaiStr);
+            for (const existingClass of existingSchedule) {
+                for (const existingScheduleStr of existingClass.jadwal) {
+                    const [existingHari, existingWaktu] = existingScheduleStr.split(', ');
+                    if (hari === existingHari) {
+                        const [existingMulaiStr, existingSelesaiStr] = existingWaktu.split('-');
+                        const existingStart = timeToMinutes(existingMulaiStr);
+                        const existingEnd = timeToMinutes(existingSelesaiStr);
+                        if (newStart < existingEnd && existingStart < newEnd) return existingClass;
+                    }
+                }
+            }
+        }
+        return null;
+    }
+
+    function handleClassSelection(event) {
+        // ... (Fungsi ini tidak berubah)
+        const checkbox = event.target;
+        const classId = checkbox.dataset.classId;
+        const courseId = checkbox.dataset.courseId;
+        const course = courseData.find(c => c.kode_mk === courseId);
+        const selectedClassObj = { ...course.kelas.find(k => k.nama_kelas === classId) };
+        selectedClassObj.sks = course.sks;
+        selectedClassObj.nama_mk = course.nama_mk;
+        selectedClassObj.kode_mk = course.kode_mk;
+        selectedClassObj.id_unik = `${courseId}-${classId}`;
+        const existingIndex = selectedClasses.findIndex(c => c.id_unik === selectedClassObj.id_unik);
+        if (checkbox.checked) {
+            const sameCourseConflict = selectedClasses.find(c => c.kode_mk === selectedClassObj.kode_mk);
+            if (sameCourseConflict) {
+                alert(`Anda hanya bisa memilih satu kelas untuk mata kuliah ${sameCourseConflict.nama_mk}.`);
+                checkbox.checked = false; return;
+            }
+            const timeConflict = detectConflict(selectedClassObj, selectedClasses);
+            if (timeConflict) {
+                alert(`Jadwal konflik dengan ${timeConflict.nama_mk} (${timeConflict.nama_kelas})!`);
+                checkbox.checked = false; return;
+            }
+            if(existingIndex === -1) selectedClasses.push(selectedClassObj);
+        } else {
+            if(existingIndex > -1) selectedClasses.splice(existingIndex, 1);
+        }
+        updateAllUI();
+    }
+    
+    // --- FUNGSI UPDATE UI TERPUSAT ---
+    function updateAllUI() {
+        localStorage.setItem('jadwalPilihan', JSON.stringify(selectedClasses));
+        const totalSKS = selectedClasses.reduce((sum, cls) => sum + (cls.sks || 0), 0);
+        
+        // Update semua bagian UI
+        renderSelectedClassesSummary(totalSKS);
+        renderListView(totalSKS);
+        renderCalendarView(); // Kalender tidak perlu SKS, tapi perlu dirender ulang
+    }
+    
+    // --- FUNGSI RENDER UNTUK SETIAP VIEW ---
+    function renderSelectedClassesSummary(totalSKS) {
+        summaryContent.innerHTML = '';
+        selectedClasses.forEach(cls => {
+            const item = document.createElement('div');
+            item.className = 'selected-item';
+            const formattedJadwal = cls.jadwal.map(j => j.split(', ')[1].replace('-', '-<br>')).join('<br>');
+            item.innerHTML = `<span>${cls.nama_kelas}</span><span>${cls.jadwal.join('<br>')}</span><span>${cls.sks}</span>`;
+            summaryContent.appendChild(item);
+        });
+        summarySksTotal.textContent = totalSKS;
+    }
+
+    function renderCourseList() {
+        // ... (Fungsi ini tidak berubah)
+        let html = '';
+        const selectedIds = new Set(selectedClasses.map(c => c.id_unik));
+        for (const course of courseData) {
+            html += `<div class="course-card">
+                        <div class="course-header">${course.nama_mk} (${course.sks} SKS)</div>
+                        <div class="course-subheader">Kode: ${course.kode_mk} | Term: ${course.term}</div>`;
+            for (const cls of course.kelas) {
+                const fullId = `${course.kode_mk}-${cls.nama_kelas}`;
+                const isChecked = selectedIds.has(fullId) ? 'checked' : '';
+                const lecturersHtml = cls.pengajar.length > 0 ? cls.pengajar.join('<br>') : '-';
+                const roomHtml = cls.ruang.length > 0 ? cls.ruang.join(', ') : '-';
+                html += `<div class="class-item">
+                            <input type="checkbox" id="${fullId}" data-class-id="${cls.nama_kelas}" data-course-id="${course.kode_mk}" ${isChecked}>
+                            <label for="${fullId}" class="class-info">
+                                <strong>${cls.nama_kelas}</strong>
+                                <span class="details">Jadwal: ${cls.jadwal.join(' | ')} <br> Ruang: ${roomHtml} <br> Pengajar: <br>${lecturersHtml}</span>
+                            </label>
+                         </div>`;
+            }
+            html += `</div>`;
+        }
+        courseListContainer.innerHTML = html;
+        document.querySelectorAll('input[type="checkbox"]').forEach(c => c.addEventListener('change', handleClassSelection));
+    }
+
+    function renderListView(totalSKS) {
+        // ... (Fungsi ini tidak berubah)
+        listViewBody.innerHTML = '';
+        if (selectedClasses.length === 0) {
+            listViewBody.innerHTML = `<tr><td colspan="5" style="text-align:center;">Belum ada mata kuliah yang dipilih.</td></tr>`;
+        } else {
+            selectedClasses.forEach(cls => {
+                const row = document.createElement('tr');
+                row.innerHTML = `<td>${cls.nama_kelas}</td><td>${cls.jadwal.join('<br>')}</td><td>${cls.ruang.join('<br>')}</td><td>${cls.pengajar.join('<br>')}</td><td>${cls.sks || 0}</td>`;
+                listViewBody.appendChild(row);
+            });
+        }
+        listSksTotal.textContent = totalSKS;
+    }
+
+    function renderCalendarView() {
+        // ... (Fungsi ini tidak berubah)
+        timetableElement.innerHTML = '';
+        const days = ["Jam", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"];
+        days.forEach(day => { timetableElement.innerHTML += `<div class="grid-header">${day}</div>`; });
+        const startHour = 7, endHour = 19;
+        for (let i = 0; i < (endHour - startHour) * 2; i++) {
+            const row = i + 2;
+            const hour = startHour + Math.floor(i / 2);
+            const minute = (i % 2 === 0) ? '00' : '30';
+            timetableElement.innerHTML += `<div class="time-slot" style="grid-row: ${row}; grid-column: 1;">${hour.toString().padStart(2, '0')}.${minute}</div>`;
+            timetableElement.innerHTML += `<div class="time-separator" style="grid-row: ${row};"></div>`;
+        }
+        const dayToGridColumn = { "Senin": 2, "Selasa": 3, "Rabu": 4, "Kamis": 5, "Jumat": 6, "Sabtu": 7 };
+        selectedClasses.forEach(cls => {
+            cls.jadwal.forEach(scheduleStr => {
+                const [hari, waktu] = scheduleStr.split(', ');
+                const [mulaiStr, selesaiStr] = waktu.split('-');
+                const startMinutes = timeToMinutes(mulaiStr);
+                const endMinutes = timeToMinutes(selesaiStr);
+                const startRow = Math.floor((startMinutes - startHour * 60) / 30) + 2;
+                const endRow = Math.ceil((endMinutes - startHour * 60) / 30) + 2;
+                const column = dayToGridColumn[hari];
+                if(column && startRow >=2 && endRow > startRow) {
+                    const block = document.createElement('div');
+                    block.className = 'schedule-block';
+                    block.style.gridColumn = `${column}`;
+                    block.style.gridRow = `${startRow} / ${endRow}`;
+                    block.innerHTML = `<div class="block-time">${mulaiStr} - ${selesaiStr}</div><div class="block-classname">${cls.nama_kelas}</div><div class="block-room">Ruang: ${cls.ruang.join(', ')}</div>`;
+                    timetableElement.appendChild(block);
+                }
+            });
+        });
+    }
+
+    // --- INISIALISASI ---
+    fetch('jadwal.json')
+        .then(response => response.ok ? response.json() : Promise.reject(response.statusText))
+        .then(data => {
+            courseData = data;
+            renderCourseList();
+            updateAllUI(); // Update semua view berdasarkan state awal
+        })
+        .catch(error => {
+            console.error('Gagal memuat JSON:', error);
+            courseListContainer.innerHTML = `<p>Error: Gagal memuat file <strong>jadwal.json</strong>.</p>`;
+        });
+});
+</script>
+</body>
+</html>
