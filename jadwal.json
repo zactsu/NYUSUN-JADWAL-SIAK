@@ -1,1 +1,2842 @@
-[]
+[
+  {
+    "kode_mk": "ENBS600002",
+    "nama_mk": "Aljabar Linier",
+    "sks": 4,
+    "term": 1,
+    "kelas": [
+      {
+        "nama_kelas": "Aljabar Linier-01",
+        "jadwal": [
+          "Selasa, 16.00-17.40",
+          "Kamis, 16.00-17.40"
+        ],
+        "ruang": [
+          "S.502",
+          "S.502"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Aljabar Linier-02",
+        "jadwal": [
+          "Selasa, 16.00-17.40",
+          "Kamis, 16.00-17.40"
+        ],
+        "ruang": [
+          "K.211",
+          "K.211"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Aljabar Linier-03",
+        "jadwal": [
+          "Selasa, 16.00-17.40",
+          "Kamis, 16.00-17.40"
+        ],
+        "ruang": [
+          "K.202",
+          "K.202"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Aljabar Linier-04",
+        "jadwal": [
+          "Selasa, 16.00-17.40",
+          "Kamis, 16.00-17.40"
+        ],
+        "ruang": [
+          "S.205",
+          "S.203"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Aljabar Linier-05",
+        "jadwal": [
+          "Selasa, 16.00-17.40",
+          "Kamis, 16.00-17.40"
+        ],
+        "ruang": [
+          "S.504",
+          "S.504"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Aljabar Linier-06",
+        "jadwal": [
+          "Selasa, 16.00-17.40",
+          "Kamis, 16.00-17.40"
+        ],
+        "ruang": [
+          "S.302",
+          "S.304"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Aljabar Linier-07",
+        "jadwal": [
+          "Selasa, 16.00-17.40",
+          "Kamis, 16.00-17.40"
+        ],
+        "ruang": [
+          "S.402",
+          "S.402"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Aljabar Linier-08",
+        "jadwal": [
+          "Selasa, 16.00-17.40",
+          "Kamis, 16.00-17.40"
+        ],
+        "ruang": [
+          "S.607",
+          "S.607"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Aljabar Linier-09",
+        "jadwal": [
+          "Selasa, 16.00-17.40",
+          "Kamis, 16.00-17.40"
+        ],
+        "ruang": [
+          "S.604",
+          "S.606"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Aljabar Linier-10",
+        "jadwal": [
+          "Selasa, 16.00-17.40",
+          "Kamis, 16.00-17.40"
+        ],
+        "ruang": [
+          "S.101",
+          "S.101"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Aljabar Linier-11",
+        "jadwal": [
+          "Selasa, 16.00-17.40",
+          "Kamis, 16.00-17.40"
+        ],
+        "ruang": [
+          "S.503 (Studio Gbr)",
+          "S.503 (Studio Gbr)"
+        ],
+        "pengajar": []
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE603008",
+    "nama_mk": "Analisis Vektor dan Peubah Kompleks",
+    "sks": 2,
+    "term": 3,
+    "kelas": [
+      {
+        "nama_kelas": "Analisis Vektor 01",
+        "jadwal": [
+          "Rabu, 08.00-09.40"
+        ],
+        "ruang": [
+          "S.607"
+        ],
+        "pengajar": [
+          "Prof. Eko Tjipto Rahardjo"
+        ]
+      },
+      {
+        "nama_kelas": "Analisis Vektor 02",
+        "jadwal": [
+          "Jumat, 13.00-14.40"
+        ],
+        "ruang": [
+          "S.604"
+        ],
+        "pengajar": [
+          "Prof. Eko Tjipto Rahardjo"
+        ]
+      },
+      {
+        "nama_kelas": "Analisis Vektor 03",
+        "jadwal": [
+          "Jumat, 13.00-14.40"
+        ],
+        "ruang": [
+          "GK.305"
+        ],
+        "pengajar": [
+          "Prof. Gunawan Wibisono"
+        ]
+      },
+      {
+        "nama_kelas": "No Class",
+        "jadwal": [
+          "Rabu, 13.00-14.40"
+        ],
+        "ruang": [
+          "dummy9"
+        ],
+        "pengajar": []
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENFE600002",
+    "nama_mk": "Berpikir Komputasional",
+    "sks": 2,
+    "term": 1,
+    "kelas": [
+      {
+        "nama_kelas": "Berpikir Kompu-01",
+        "jadwal": [
+          "Selasa, 10.00-11.40"
+        ],
+        "ruang": [
+          "S.101"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Berpikir Kompu-02",
+        "jadwal": [
+          "Selasa, 10.00-11.40"
+        ],
+        "ruang": [
+          "ICELL X-304"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Berpikir Kompu-03",
+        "jadwal": [
+          "Selasa, 10.00-11.40"
+        ],
+        "ruang": [
+          "K.202"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Berpikir Kompu-04",
+        "jadwal": [
+          "Selasa, 10.00-11.40"
+        ],
+        "ruang": [
+          "S.605"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Berpikir Kompu-05",
+        "jadwal": [
+          "Selasa, 10.00-11.40"
+        ],
+        "ruang": [
+          "S.606"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Berpikir Kompu-06",
+        "jadwal": [
+          "Selasa, 10.00-11.40"
+        ],
+        "ruang": [
+          "S.302"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Berpikir Kompu-07",
+        "jadwal": [
+          "Selasa, 10.00-11.40"
+        ],
+        "ruang": [
+          "S.202"
+        ],
+        "pengajar": [
+          "Dr. Prima Dewi Purnamasari, M.Sc., M.T."
+        ]
+      },
+      {
+        "nama_kelas": "Berpikir Kompu-08",
+        "jadwal": [
+          "Selasa, 10.00-11.40"
+        ],
+        "ruang": [
+          "S.203"
+        ],
+        "pengajar": [
+          "Prof. Dr. Anak Agung Putri Ratna"
+        ]
+      },
+      {
+        "nama_kelas": "Berpikir Kompu-09",
+        "jadwal": [
+          "Selasa, 10.00-11.40"
+        ],
+        "ruang": [
+          "S.205"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Berpikir Kompu-10",
+        "jadwal": [
+          "Selasa, 10.00-11.40"
+        ],
+        "ruang": [
+          "GK.303"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Berpikir Kompu-11",
+        "jadwal": [
+          "Selasa, 10.00-11.40"
+        ],
+        "ruang": [
+          "K.206"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Berpikir Kompu-12",
+        "jadwal": [
+          "Selasa, 10.00-11.40"
+        ],
+        "ruang": [
+          "K.207"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Berpikir Kompu-13",
+        "jadwal": [
+          "Selasa, 16.00-17.40"
+        ],
+        "ruang": [
+          "ICELL X-301"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Berpikir Kompu-14",
+        "jadwal": [
+          "Selasa, 16.00-17.40"
+        ],
+        "ruang": [
+          "K.207"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Berpikir Kompu-15",
+        "jadwal": [
+          "Selasa, 16.00-17.40"
+        ],
+        "ruang": [
+          "GK.307"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Berpikir Kompu-16",
+        "jadwal": [
+          "Selasa, 16.00-17.40"
+        ],
+        "ruang": [
+          "K.102"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Berpikir Kompu-17",
+        "jadwal": [
+          "Selasa, 10.00-11.40"
+        ],
+        "ruang": [
+          "S.502"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Berpikir Kompu-18",
+        "jadwal": [
+          "Selasa, 16.00-17.40"
+        ],
+        "ruang": [
+          "ICELL X-304"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Berpikir Kompu-19",
+        "jadwal": [
+          "Selasa, 16.00-17.40"
+        ],
+        "ruang": [
+          "GK.305"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Berpikir Kompu-20",
+        "jadwal": [
+          "Selasa, 16.00-17.40"
+        ],
+        "ruang": [
+          "S.606"
+        ],
+        "pengajar": []
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENFE600003",
+    "nama_mk": "Dasar Analitik Data",
+    "sks": 2,
+    "term": 3,
+    "kelas": [
+      {
+        "nama_kelas": "Dasar Analitik-01",
+        "jadwal": [
+          "Jumat, 13.00-14.40"
+        ],
+        "ruang": [
+          "K.106"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Dasar Analitik-02",
+        "jadwal": [
+          "Jumat, 13.00-14.40"
+        ],
+        "ruang": [
+          "ICELL X-304"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Dasar Analitik-03",
+        "jadwal": [
+          "Jumat, 16.00-17.40"
+        ],
+        "ruang": [
+          "K.106"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Dasar Analitik-04",
+        "jadwal": [
+          "Jumat, 16.00-17.40"
+        ],
+        "ruang": [
+          "K.209"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Dasar Analitik-05",
+        "jadwal": [
+          "Jumat, 16.00-17.40"
+        ],
+        "ruang": [
+          "K.102"
+        ],
+        "pengajar": []
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE607248",
+    "nama_mk": "Desain Ekosistem TIK",
+    "sks": 2,
+    "term": 7,
+    "kelas": [
+      {
+        "nama_kelas": "Desain Ekosistem TIK",
+        "jadwal": [
+          "Selasa, 10.00-11.40"
+        ],
+        "ruang": [
+          "S.403"
+        ],
+        "pengajar": [
+          "Prof. Dr. Muhammad Suryanegara, S.T., M.Sc."
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE607356",
+    "nama_mk": "Desain Instrumentasi Elektronika",
+    "sks": 2,
+    "term": 7,
+    "kelas": [
+      {
+        "nama_kelas": "Desain Instrumentasi",
+        "jadwal": [
+          "Senin, 08.00-09.40"
+        ],
+        "ruang": [
+          "GK.205"
+        ],
+        "pengajar": [
+          "Tomy Abuzairi, M.Sc., Ph.D.",
+          "Prof. Retno Wigajatri Purnamaningsih"
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE607034",
+    "nama_mk": "Desain Proyek Teknik Elektro 2",
+    "sks": 3,
+    "term": 7,
+    "kelas": [
+      {
+        "nama_kelas": "Desain Proyek TE 2-1",
+        "jadwal": [
+          "Rabu, 13.00-15.30"
+        ],
+        "ruang": [
+          "K.205"
+        ],
+        "pengajar": [
+          "Abdul Muis, M.Sc., Ph.D.",
+          "Taufiq Alif Kurniawan, S.T., M.T.",
+          "Prof. Gunawan Wibisono",
+          "Prof. Dadang Gunawan, Ph.D."
+        ]
+      },
+      {
+        "nama_kelas": "Desain Proyek TE2-02",
+        "jadwal": [
+          "Rabu, 16.00-18.30"
+        ],
+        "ruang": [
+          "K.103"
+        ],
+        "pengajar": [
+          "Abdul Muis, M.Sc., Ph.D.",
+          "Prof. Dadang Gunawan, Ph.D.",
+          "Prof. Gunawan Wibisono",
+          "Taufiq Alif Kurniawan, S.T., M.T."
+        ]
+      },
+      {
+        "nama_kelas": "Desain Proyek TE2-03",
+        "jadwal": [
+          "Kamis, 16.00-18.30"
+        ],
+        "ruang": [
+          "dummy18"
+        ],
+        "pengajar": [
+          "Taufiq Alif Kurniawan, S.T., M.T.",
+          "Prof. Dadang Gunawan, Ph.D.",
+          "Prof. Gunawan Wibisono",
+          "Abdul Muis, M.Sc., Ph.D."
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE606352",
+    "nama_mk": "Desain Rangkaian VLSI",
+    "sks": 3,
+    "term": 6,
+    "kelas": [
+      {
+        "nama_kelas": "No Class",
+        "jadwal": [
+          "Kamis, 07.00-09.30"
+        ],
+        "ruang": [
+          "K.105--"
+        ],
+        "pengajar": []
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE607357",
+    "nama_mk": "Devais Elektronika Lanjut",
+    "sks": 3,
+    "term": 7,
+    "kelas": [
+      {
+        "nama_kelas": "Devais Elektron Lanj",
+        "jadwal": [
+          "Jumat, 16.00-18.30"
+        ],
+        "ruang": [
+          "S.405 (PBL)"
+        ],
+        "pengajar": [
+          "Tomy Abuzairi, M.Sc., Ph.D.",
+          "Dr. Djoko Hartanto,"
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE603014",
+    "nama_mk": "Devais Semikonduktor",
+    "sks": 2,
+    "term": 3,
+    "kelas": [
+      {
+        "nama_kelas": "Devais Semikonduk 01",
+        "jadwal": [
+          "Selasa, 08.00-09.40"
+        ],
+        "ruang": [
+          "S.304"
+        ],
+        "pengajar": [
+          "Prof. Dr.Eng. Arief Udhiarto, S.T., M.T."
+        ]
+      },
+      {
+        "nama_kelas": "Devais Semikonduk 02",
+        "jadwal": [
+          "Jumat, 08.00-09.40"
+        ],
+        "ruang": [
+          "S.305"
+        ],
+        "pengajar": [
+          "Dr. Djoko Hartanto,",
+          "Tomy Abuzairi, M.Sc., Ph.D."
+        ]
+      },
+      {
+        "nama_kelas": "Devais Semikonduk 03",
+        "jadwal": [
+          "Kamis, 13.00-14.40"
+        ],
+        "ruang": [
+          "K.104"
+        ],
+        "pengajar": [
+          "Tomy Abuzairi, M.Sc., Ph.D.",
+          "Dr. Djoko Hartanto,"
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE607141",
+    "nama_mk": "Distribusi dan Instalasi Listrik",
+    "sks": 3,
+    "term": 7,
+    "kelas": [
+      {
+        "nama_kelas": "Distr &Instal Lis 01",
+        "jadwal": [
+          "Jumat, 16.00-18.30"
+        ],
+        "ruang": [
+          "S.302"
+        ],
+        "pengajar": [
+          "Fauzan Hanif Jufri, M.Sc."
+        ]
+      },
+      {
+        "nama_kelas": "Distr &Instal Lis 02",
+        "jadwal": [
+          "Jumat, 16.00-18.30"
+        ],
+        "ruang": [
+          "K.206"
+        ],
+        "pengajar": [
+          "I Made Ardita, M.T."
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE604020",
+    "nama_mk": "Elektromagnetika",
+    "sks": 3,
+    "term": 4,
+    "kelas": [
+      {
+        "nama_kelas": "No Class",
+        "jadwal": [
+          "Selasa, 07.00-09.30"
+        ],
+        "ruang": [
+          "GK.206--"
+        ],
+        "pengajar": []
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENBS600004",
+    "nama_mk": "Fisika - Listrik, Magnet, Gelombang, Optik",
+    "sks": 3,
+    "term": 1,
+    "kelas": [
+      {
+        "nama_kelas": "Fisika Listrik-01",
+        "jadwal": [
+          "Selasa, 16.00-18.30"
+        ],
+        "ruang": [
+          "S.501"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Fisika Listrik-02",
+        "jadwal": [
+          "Senin, 13.00-15.30"
+        ],
+        "ruang": [
+          "K.202"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Fisika Listrik-03",
+        "jadwal": [
+          "Senin, 13.00-15.30"
+        ],
+        "ruang": [
+          "K.102"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Fisika Listrik-04",
+        "jadwal": [
+          "Rabu, 13.00-15.30"
+        ],
+        "ruang": [
+          "S.502"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Fisika Listrik-05",
+        "jadwal": [
+          "Rabu, 13.00-15.30"
+        ],
+        "ruang": [
+          "K.106"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Fisika Listrik-06",
+        "jadwal": [
+          "Rabu, 13.00-15.30"
+        ],
+        "ruang": [
+          "K.209"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Fisika Listrik-07",
+        "jadwal": [
+          "Selasa, 16.00-18.30"
+        ],
+        "ruang": [
+          "S.605"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Fisika Listrik-08",
+        "jadwal": [
+          "Rabu, 13.00-15.30"
+        ],
+        "ruang": [
+          "K.202"
+        ],
+        "pengajar": []
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE605031",
+    "nama_mk": "Inovasi dan Kewirausahaan",
+    "sks": 2,
+    "term": 5,
+    "kelas": [
+      {
+        "nama_kelas": "Inovasi Kewirausa 01",
+        "jadwal": [
+          "Selasa, 08.00-09.40"
+        ],
+        "ruang": [
+          "S.604"
+        ],
+        "pengajar": [
+          "Ir. Amien Rahardjo, M.T."
+        ]
+      },
+      {
+        "nama_kelas": "Inovasi Kewirausa 02",
+        "jadwal": [
+          "Selasa, 08.00-09.40"
+        ],
+        "ruang": [
+          "GK.305"
+        ],
+        "pengajar": [
+          "Faiz Husnayain, S.T., M.Sc., Ph.D."
+        ]
+      },
+      {
+        "nama_kelas": "Inovasi Kewirausa 03",
+        "jadwal": [
+          "Senin, 08.00-09.40"
+        ],
+        "ruang": [
+          "S.303"
+        ],
+        "pengajar": [
+          "Ir. Amien Rahardjo, M.T."
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE603011",
+    "nama_mk": "Instrumentasi dan Pengukuran",
+    "sks": 2,
+    "term": 3,
+    "kelas": [
+      {
+        "nama_kelas": "Instr & Peng 01",
+        "jadwal": [
+          "Senin, 08.00-09.40"
+        ],
+        "ruang": [
+          "S.601"
+        ],
+        "pengajar": [
+          "Ir. Agus R. Utomo, M.T."
+        ]
+      },
+      {
+        "nama_kelas": "Instr & Peng 02",
+        "jadwal": [
+          "Rabu, 08.00-09.40"
+        ],
+        "ruang": [
+          "S.402"
+        ],
+        "pengajar": [
+          "Aji Nur Widyanto, S.T."
+        ]
+      },
+      {
+        "nama_kelas": "Instr & Peng 03",
+        "jadwal": [
+          "Kamis, 10.00-11.40"
+        ],
+        "ruang": [
+          "S.605"
+        ],
+        "pengajar": [
+          "Ir. Agus R. Utomo, M.T."
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENBS600001",
+    "nama_mk": "Kalkulus",
+    "sks": 4,
+    "term": 1,
+    "kelas": [
+      {
+        "nama_kelas": "Kalkulus-01",
+        "jadwal": [
+          "Senin, 08.00-09.40",
+          "Rabu, 08.00-09.40"
+        ],
+        "ruang": [
+          "K.209",
+          "K.209"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Kalkulus-02",
+        "jadwal": [
+          "Senin, 08.00-09.40",
+          "Rabu, 08.00-09.40"
+        ],
+        "ruang": [
+          "K.207",
+          "K.204"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Kalkulus-03",
+        "jadwal": [
+          "Senin, 08.00-09.40",
+          "Rabu, 08.00-09.40"
+        ],
+        "ruang": [
+          "K.106",
+          "K.106"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Kalkulus-04",
+        "jadwal": [
+          "Senin, 08.00-09.40",
+          "Rabu, 08.00-09.40"
+        ],
+        "ruang": [
+          "K.103",
+          "K.103"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Kalkulus-05",
+        "jadwal": [
+          "Senin, 08.00-09.40",
+          "Rabu, 08.00-08.40"
+        ],
+        "ruang": [
+          "GK.303",
+          "K.206"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Kalkulus-06",
+        "jadwal": [
+          "Senin, 08.00-09.40",
+          "Rabu, 08.00-09.40"
+        ],
+        "ruang": [
+          "K.210",
+          "K.107"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Kalkulus-07",
+        "jadwal": [
+          "Senin, 08.00-09.40",
+          "Rabu, 08.00-09.40"
+        ],
+        "ruang": [
+          "K.211",
+          "K.211"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Kalkulus-08",
+        "jadwal": [
+          "Senin, 08.00-09.40",
+          "Rabu, 08.00-09.40"
+        ],
+        "ruang": [
+          "S.502",
+          "S.502"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Kalkulus-09",
+        "jadwal": [
+          "Senin, 08.00-09.40",
+          "Rabu, 08.00-09.40"
+        ],
+        "ruang": [
+          "K.202",
+          "K.202"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Kalkulus-10",
+        "jadwal": [
+          "Senin, 10.00-11.40",
+          "Rabu, 10.00-11.40"
+        ],
+        "ruang": [
+          "S.305",
+          "S.305"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Kalkulus-11",
+        "jadwal": [
+          "Senin, 10.00-11.40",
+          "Rabu, 10.00-11.40"
+        ],
+        "ruang": [
+          "K.210",
+          "K.210"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Kalkulus-12",
+        "jadwal": [
+          "Senin, 10.00-11.40",
+          "Rabu, 10.00-11.40"
+        ],
+        "ruang": [
+          "K.202",
+          "K.202"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Kalkulus-13",
+        "jadwal": [
+          "Senin, 10.00-11.40",
+          "Rabu, 10.00-11.40"
+        ],
+        "ruang": [
+          "S.302",
+          "S.302"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Kalkulus-14",
+        "jadwal": [
+          "Senin, 10.00-11.40",
+          "Rabu, 10.00-11.40"
+        ],
+        "ruang": [
+          "K.102",
+          "K.106"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Kalkulus-15",
+        "jadwal": [
+          "Senin, 10.00-11.40",
+          "Rabu, 10.00-11.40"
+        ],
+        "ruang": [
+          "K.204",
+          "K.211"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Kalkulus-16",
+        "jadwal": [
+          "Senin, 10.00-11.40",
+          "Rabu, 10.00-11.40"
+        ],
+        "ruang": [
+          "K.206",
+          "K.209"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Kalkulus-17",
+        "jadwal": [
+          "Senin, 10.00-11.40",
+          "Rabu, 10.00-11.40"
+        ],
+        "ruang": [
+          "K.106",
+          "S.502"
+        ],
+        "pengajar": []
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE607249",
+    "nama_mk": "Komunikasi Nirkabel dan Jaringan Konvergen",
+    "sks": 2,
+    "term": 7,
+    "kelas": [
+      {
+        "nama_kelas": "Komunikasi Nirkabel",
+        "jadwal": [
+          "Jumat, 08.00-09.40"
+        ],
+        "ruang": [
+          "K.108"
+        ],
+        "pengajar": [
+          "Ajib Setyo Arifin, S.T., Ph.D."
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE607250",
+    "nama_mk": "Komunikasi Optik",
+    "sks": 2,
+    "term": 7,
+    "kelas": [
+      {
+        "nama_kelas": "Komunikasi Optik",
+        "jadwal": [
+          "Senin, 16.00-17.40"
+        ],
+        "ruang": [
+          "S.602"
+        ],
+        "pengajar": [
+          "Dr. Catur Apriono, S.T., M.T., Ph.D."
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE603007",
+    "nama_mk": "Matematika Diskrit",
+    "sks": 3,
+    "term": 3,
+    "kelas": [
+      {
+        "nama_kelas": "Matematika Diskrit 1",
+        "jadwal": [
+          "Selasa, 16.00-18.30"
+        ],
+        "ruang": [
+          "S.603"
+        ],
+        "pengajar": [
+          "Prof. Gunawan Wibisono"
+        ]
+      },
+      {
+        "nama_kelas": "Matematika Diskrit 2",
+        "jadwal": [
+          "Kamis, 13.00-15.30"
+        ],
+        "ruang": [
+          "K.210"
+        ],
+        "pengajar": [
+          "Abdul Halim",
+          "Naufan Raharya, S.T., M.T., Ph.D."
+        ]
+      },
+      {
+        "nama_kelas": "Matematika Diskrit 3",
+        "jadwal": [
+          "Jumat, 16.00-18.30"
+        ],
+        "ruang": [
+          "K.203"
+        ],
+        "pengajar": [
+          "Abdul Halim",
+          "Ismi Rosyiana Fitri, S.T., Ph.D."
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE603006",
+    "nama_mk": "Matematika Lanjut 2",
+    "sks": 4,
+    "term": 3,
+    "kelas": [
+      {
+        "nama_kelas": "Matematika Lanj 2 01",
+        "jadwal": [
+          "Senin, 13.00-14.40",
+          "Kamis, 13.00-14.40"
+        ],
+        "ruang": [
+          "GK.305",
+          "GK.305"
+        ],
+        "pengajar": [
+          "Ismi Rosyiana Fitri, S.T., Ph.D."
+        ]
+      },
+      {
+        "nama_kelas": "Matematika Lanj 2 02",
+        "jadwal": [
+          "Senin, 13.00-14.40",
+          "Kamis, 13.00-14.40"
+        ],
+        "ruang": [
+          "S.502",
+          "S.502"
+        ],
+        "pengajar": [
+          "Prof. Dr. Ir. Muhamad Asvial, M.Eng.",
+          "Taufiq Alif Kurniawan, S.T., M.T."
+        ]
+      },
+      {
+        "nama_kelas": "Matematika Lanj 2 03",
+        "jadwal": [
+          "Senin, 13.00-14.40",
+          "Rabu, 13.00-14.40"
+        ],
+        "ruang": [
+          "S.606",
+          "S.606"
+        ],
+        "pengajar": [
+          "Prof. Purnomo Sidi Priambodo, M.Sc., Ph.D."
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE603013",
+    "nama_mk": "Material Listrik",
+    "sks": 2,
+    "term": 3,
+    "kelas": [
+      {
+        "nama_kelas": "Material Listrik 01",
+        "jadwal": [
+          "Jumat, 08.00-09.40"
+        ],
+        "ruang": [
+          "S.606"
+        ],
+        "pengajar": [
+          "Dr.-Ing. Budi Sudiarto,"
+        ]
+      },
+      {
+        "nama_kelas": "Material Listrik 02",
+        "jadwal": [
+          "Kamis, 10.00-11.40"
+        ],
+        "ruang": [
+          "S.201"
+        ],
+        "pengajar": [
+          "Dr.-Ing. Budi Sudiarto,"
+        ]
+      },
+      {
+        "nama_kelas": "Material Listrik 03",
+        "jadwal": [
+          "Kamis, 08.00-09.40"
+        ],
+        "ruang": [
+          "S.607"
+        ],
+        "pengajar": [
+          "Prof. Dr. Ir. Rudy Setiabudy"
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE607463",
+    "nama_mk": "Mekatronika",
+    "sks": 3,
+    "term": 7,
+    "kelas": [
+      {
+        "nama_kelas": "Mekatronika",
+        "jadwal": [
+          "Selasa, 13.00-14.40"
+        ],
+        "ruang": [
+          "GK.206"
+        ],
+        "pengajar": [
+          "Abdul Muis, M.Sc., Ph.D.",
+          "Wahidin Wahab, Ph.D."
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE605030",
+    "nama_mk": "Pemodelan dan Pembelajaran Mesin",
+    "sks": 3,
+    "term": 5,
+    "kelas": [
+      {
+        "nama_kelas": "Pemodelan & ML-01",
+        "jadwal": [
+          "Senin, 13.00-15.30"
+        ],
+        "ruang": [
+          "S.607"
+        ],
+        "pengajar": [
+          "Naufan Raharya, S.T., M.T., Ph.D.",
+          "Prof. Drs. Benyamin Kusumo Putro"
+        ]
+      },
+      {
+        "nama_kelas": "Pemodelan & ML-02",
+        "jadwal": [
+          "Selasa, 13.00-15.30"
+        ],
+        "ruang": [
+          "S.202"
+        ],
+        "pengajar": [
+          "Prof. Drs. Benyamin Kusumo Putro",
+          "Naufan Raharya, S.T., M.T., Ph.D."
+        ]
+      },
+      {
+        "nama_kelas": "Pemodelan & ML-03",
+        "jadwal": [
+          "Jumat, 16.00-18.30"
+        ],
+        "ruang": [
+          "S.202"
+        ],
+        "pengajar": [
+          "Prof. Drs. Benyamin Kusumo Putro",
+          "Naufan Raharya, S.T., M.T., Ph.D."
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE602001",
+    "nama_mk": "Praktikum Fisika Dasar",
+    "sks": 1,
+    "term": 1,
+    "kelas": [
+      {
+        "nama_kelas": "Prak Fisika Dasar 1",
+        "jadwal": [
+          "Jumat, 15.00-18.00"
+        ],
+        "ruang": [
+          "Lab. ICELL LT.7D"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Prak Fisika Dasar 2",
+        "jadwal": [
+          "Senin, 10.00-12.30"
+        ],
+        "ruang": [
+          "Lab. ICELL LT.7D"
+        ],
+        "pengajar": []
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE607143",
+    "nama_mk": "Proteksi Sistem Tenaga Listrik",
+    "sks": 2,
+    "term": 7,
+    "kelas": [
+      {
+        "nama_kelas": "Proteksi Sist TL 01",
+        "jadwal": [
+          "Selasa, 08.00-09.40"
+        ],
+        "ruang": [
+          "GK.306"
+        ],
+        "pengajar": [
+          "Fauzan Hanif Jufri, M.Sc."
+        ]
+      },
+      {
+        "nama_kelas": "Proteksi Sist TL 02",
+        "jadwal": [
+          "Selasa, 08.00-09.40"
+        ],
+        "ruang": [
+          "GK.206"
+        ],
+        "pengajar": [
+          "I Made Ardita, M.T."
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE605025",
+    "nama_mk": "Rangkaian Elektronika 2",
+    "sks": 2,
+    "term": 5,
+    "kelas": [
+      {
+        "nama_kelas": "Rang Elektronik 2-01",
+        "jadwal": [
+          "Rabu, 08.00-09.40"
+        ],
+        "ruang": [
+          "GK.305"
+        ],
+        "pengajar": [
+          "Taufiq Alif Kurniawan, S.T., M.T."
+        ]
+      },
+      {
+        "nama_kelas": "Rang Elektronik 2-02",
+        "jadwal": [
+          "Rabu, 16.00-17.40"
+        ],
+        "ruang": [
+          "S.604"
+        ],
+        "pengajar": [
+          "Prof. Purnomo Sidi Priambodo, M.Sc., Ph.D."
+        ]
+      },
+      {
+        "nama_kelas": "Rang Elektronik 2-03",
+        "jadwal": [
+          "Jumat, 13.00-14.40"
+        ],
+        "ruang": [
+          "K.204"
+        ],
+        "pengajar": [
+          "Prof. Retno Wigajatri Purnamaningsih",
+          "Tomy Abuzairi, M.Sc., Ph.D.",
+          "Junivan Sulistianto, Ph.D."
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE603009",
+    "nama_mk": "Rangkaian Listrik 2",
+    "sks": 2,
+    "term": 3,
+    "kelas": [
+      {
+        "nama_kelas": "Rangk Listrik 2-01",
+        "jadwal": [
+          "Selasa, 16.00-17.40"
+        ],
+        "ruang": [
+          "S.304"
+        ],
+        "pengajar": [
+          "Prof. Feri Yusivar",
+          "Prof. Retno Wigajatri Purnamaningsih"
+        ]
+      },
+      {
+        "nama_kelas": "Rangk Listrik 2-02",
+        "jadwal": [
+          "Selasa, 16.00-17.40"
+        ],
+        "ruang": [
+          "S.305"
+        ],
+        "pengajar": [
+          "Aji Nur Widyanto, S.T."
+        ]
+      },
+      {
+        "nama_kelas": "Rangk Listrik 2-03",
+        "jadwal": [
+          "Rabu, 16.00-17.40"
+        ],
+        "ruang": [
+          "K.202"
+        ],
+        "pengajar": [
+          "Aji Nur Widyanto, S.T."
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE607464",
+    "nama_mk": "Sistem berbasis Pengetahuan",
+    "sks": 3,
+    "term": 7,
+    "kelas": [
+      {
+        "nama_kelas": "Sistem Berbasis Peng",
+        "jadwal": [
+          "Jumat, 13.00-15.30"
+        ],
+        "ruang": [
+          "GK.208"
+        ],
+        "pengajar": [
+          "Prof. Drs. Benyamin Kusumo Putro"
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE605028",
+    "nama_mk": "Sistem Embedded 2 dan Praktikum",
+    "sks": 3,
+    "term": 5,
+    "kelas": [
+      {
+        "nama_kelas": "Sistem Embedded 2-01",
+        "jadwal": [
+          "Rabu, 13.00-15.30"
+        ],
+        "ruang": [
+          "K.210"
+        ],
+        "pengajar": [
+          "Abdul Muis, M.Sc., Ph.D.",
+          "Tomy Abuzairi, M.Sc., Ph.D."
+        ]
+      },
+      {
+        "nama_kelas": "Sistem Embedded 2-02",
+        "jadwal": [
+          "Jumat, 13.00-15.30"
+        ],
+        "ruang": [
+          "S.504"
+        ],
+        "pengajar": [
+          "Abdul Muis, M.Sc., Ph.D.",
+          "Tomy Abuzairi, M.Sc., Ph.D."
+        ]
+      },
+      {
+        "nama_kelas": "Sistem Embedded 2-03",
+        "jadwal": [
+          "Selasa, 13.00-15.30"
+        ],
+        "ruang": [
+          "K.207"
+        ],
+        "pengajar": [
+          "Tomy Abuzairi, M.Sc., Ph.D."
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE607358",
+    "nama_mk": "Sistem Embedded Lanjut",
+    "sks": 3,
+    "term": 7,
+    "kelas": [
+      {
+        "nama_kelas": "Sistem Embedded Lanj",
+        "jadwal": [
+          "Senin, 13.00-15.30"
+        ],
+        "ruang": [
+          "Lab.Puskom.201"
+        ],
+        "pengajar": [
+          "Prof. Dr. Ir. Nji Raden Poespawati, S.T., M.T."
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE607465",
+    "nama_mk": "Sistem Otomasi Industri",
+    "sks": 2,
+    "term": 7,
+    "kelas": [
+      {
+        "nama_kelas": "Sistem Otomasi Indus",
+        "jadwal": [
+          "Jumat, 07.00-09.30"
+        ],
+        "ruang": [
+          "K.105"
+        ],
+        "pengajar": [
+          "Wahidin Wahab, Ph.D.",
+          "Abdul Muis, M.Sc., Ph.D."
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE607251",
+    "nama_mk": "Sistem Radar",
+    "sks": 2,
+    "term": 7,
+    "kelas": [
+      {
+        "nama_kelas": "Sistem Radar",
+        "jadwal": [
+          "Kamis, 08.00-09.40"
+        ],
+        "ruang": [
+          "K.105"
+        ],
+        "pengajar": [
+          "Prof. Eko Tjipto Rahardjo"
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE605023",
+    "nama_mk": "Sistem Telekomunikasi",
+    "sks": 4,
+    "term": 5,
+    "kelas": [
+      {
+        "nama_kelas": "Sis Telekomunikas 01",
+        "jadwal": [
+          "Senin, 08.00-09.40",
+          "Selasa, 10.00-11.40"
+        ],
+        "ruang": [
+          "S.205",
+          "S.305"
+        ],
+        "pengajar": [
+          "Dr. Catur Apriono, S.T., M.T., Ph.D.",
+          "Prof. Dr. Ir. Muhamad Asvial, M.Eng."
+        ]
+      },
+      {
+        "nama_kelas": "Sis Telekomunikas 02",
+        "jadwal": [
+          "Rabu, 13.00-14.40",
+          "Kamis, 10.00-11.40"
+        ],
+        "ruang": [
+          "S.605",
+          "S.601"
+        ],
+        "pengajar": [
+          "Prof. Gunawan Wibisono",
+          "Prof. Dr. Ir. Fitri Yuli Zulkifli, S.T., M.Sc."
+        ]
+      },
+      {
+        "nama_kelas": "Sis Telekomunikas 03",
+        "jadwal": [
+          "Senin, 08.00-09.40",
+          "Selasa, 13.00-14.40"
+        ],
+        "ruang": [
+          "K.102",
+          "K.210"
+        ],
+        "pengajar": [
+          "Prof. Dadang Gunawan, Ph.D."
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE606139",
+    "nama_mk": "Sistem Tenaga Listrik dan Praktikum",
+    "sks": 3,
+    "term": 6,
+    "kelas": [
+      {
+        "nama_kelas": "No Class",
+        "jadwal": [
+          "Jumat, 07.00-09.55"
+        ],
+        "ruang": [
+          "K.108-"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "No Class",
+        "jadwal": [
+          "Jumat, 13.00-15.30"
+        ],
+        "ruang": [
+          "GK.304--"
+        ],
+        "pengajar": []
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE605026",
+    "nama_mk": "Teknik Kendali",
+    "sks": 4,
+    "term": 5,
+    "kelas": [
+      {
+        "nama_kelas": "Teknik Kendali-01",
+        "jadwal": [
+          "Senin, 10.00-11.40",
+          "Kamis, 16.00-17.40"
+        ],
+        "ruang": [
+          "S.201",
+          "S.201"
+        ],
+        "pengajar": [
+          "Dr. Aries Subiantoro,"
+        ]
+      },
+      {
+        "nama_kelas": "Teknik Kendali-02",
+        "jadwal": [
+          "Senin, 10.00-11.40",
+          "Kamis, 16.00-17.40"
+        ],
+        "ruang": [
+          "S.502",
+          "S.501"
+        ],
+        "pengajar": [
+          "Naufan Raharya, S.T., M.T., Ph.D."
+        ]
+      },
+      {
+        "nama_kelas": "Teknik Kendali-03",
+        "jadwal": [
+          "Rabu, 16.00-17.40",
+          "Kamis, 16.00-17.40"
+        ],
+        "ruang": [
+          "S.301",
+          "S.303"
+        ],
+        "pengajar": [
+          "Prof. Feri Yusivar"
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE607142",
+    "nama_mk": "Teknik Tegangan dan Arus Tinggi & Praktiku",
+    "sks": 3,
+    "term": 7,
+    "kelas": [
+      {
+        "nama_kelas": "Tek Tegang Tinggi 01",
+        "jadwal": [
+          "Kamis, 07.00-09.30",
+          "Kamis, 19.00-20.40"
+        ],
+        "ruang": [
+          "GK.206",
+          "Lab.DTE"
+        ],
+        "pengajar": [
+          "Dr.-Ing. Budi Sudiarto,",
+          "Aji Nur Widyanto, S.T."
+        ]
+      },
+      {
+        "nama_kelas": "Tek Tegang Tinggi 02",
+        "jadwal": [
+          "Kamis, 19.00-20.40",
+          "Jumat, 07.00-09.30"
+        ],
+        "ruang": [
+          "Lab.DTE-",
+          "GK.304"
+        ],
+        "pengajar": [
+          "Fahmi Firdaus Angkasa, M.Sc.",
+          "Dr.-Ing. Budi Sudiarto,"
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE607371",
+    "nama_mk": "Topik Khusus Elektronika 2",
+    "sks": 2,
+    "term": 7,
+    "kelas": [
+      {
+        "nama_kelas": "Topsus Elektronika 2",
+        "jadwal": [
+          "Rabu, 13.00-14.40"
+        ],
+        "ruang": [
+          "GK.307"
+        ],
+        "pengajar": [
+          "Prof. Dr.-Ing. Harry Sudibyo S.",
+          "Prof. Retno Wigajatri Purnamaningsih"
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE607473",
+    "nama_mk": "Topik Khusus Kendali 2",
+    "sks": 2,
+    "term": 7,
+    "kelas": [
+      {
+        "nama_kelas": "Topsus Kendali 2",
+        "jadwal": [
+          "Kamis, 13.00-14.40"
+        ],
+        "ruang": [
+          "S.204"
+        ],
+        "pengajar": [
+          "Abdul Muis, M.Sc., Ph.D.",
+          "Wahidin Wahab, Ph.D."
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE607269",
+    "nama_mk": "Topik Khusus Telekomunikasi 2",
+    "sks": 2,
+    "term": 7,
+    "kelas": [
+      {
+        "nama_kelas": "Topsus Telekom 2",
+        "jadwal": [
+          "Jumat, 08.00-09.40"
+        ],
+        "ruang": [
+          "GK.302"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Topsus Telkom 2",
+        "jadwal": [
+          "Jumat, 08.00-09.40"
+        ],
+        "ruang": [
+          "K.203"
+        ],
+        "pengajar": [
+          "Prof. Dr. Ir. Fitri Yuli Zulkifli, S.T., M.Sc."
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE607167",
+    "nama_mk": "Topik Khusus Tenaga Listrik 2",
+    "sks": 2,
+    "term": 7,
+    "kelas": [
+      {
+        "nama_kelas": "Topsus Tenaga L 2-01",
+        "jadwal": [
+          "Selasa, 08.00-09.40"
+        ],
+        "ruang": [
+          "S.501"
+        ],
+        "pengajar": [
+          "Ir. Amien Rahardjo, M.T."
+        ]
+      },
+      {
+        "nama_kelas": "Topsus Tenaga L 2-02",
+        "jadwal": [
+          "Selasa, 08.00-09.40"
+        ],
+        "ruang": [
+          "S.602"
+        ],
+        "pengajar": [
+          "Ir. Agus R. Utomo, M.T."
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENBS600003",
+    "nama_mk": "Fisika - Mekanika dan Panas",
+    "sks": 3,
+    "term": 1,
+    "kelas": [
+      {
+        "nama_kelas": "Fisika Mekanika-01",
+        "jadwal": [
+          "Selasa, 13.00-15.30"
+        ],
+        "ruang": [
+          "S.304"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Fisika Mekanika-02",
+        "jadwal": [
+          "Selasa, 13.00-15.30"
+        ],
+        "ruang": [
+          "S.305"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Fisika Mekanika-03",
+        "jadwal": [
+          "Kamis, 16.00-18.30"
+        ],
+        "ruang": [
+          "S.305"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Fisika Mekanika-04",
+        "jadwal": [
+          "Kamis, 16.00-18.30"
+        ],
+        "ruang": [
+          "K.103"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Fisika Mekanika-05",
+        "jadwal": [
+          "Kamis, 16.00-18.30"
+        ],
+        "ruang": [
+          "K.209"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Fisika Mekanika-06",
+        "jadwal": [
+          "Selasa, 13.00-15.30"
+        ],
+        "ruang": [
+          "K.107"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Fisika Mekanika-07",
+        "jadwal": [
+          "Kamis, 13.00-15.30"
+        ],
+        "ruang": [
+          "K.210-"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Fisika Mekanika-08",
+        "jadwal": [
+          "Kamis, 13.00-15.30"
+        ],
+        "ruang": [
+          "S.203"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Fisika Mekanika-09",
+        "jadwal": [
+          "Selasa, 13.00-15.30"
+        ],
+        "ruang": [
+          "K.202"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Fisika Mekanika-10",
+        "jadwal": [
+          "Selasa, 13.00-15.30"
+        ],
+        "ruang": [
+          "K.209"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Fisika Mekanika-11",
+        "jadwal": [
+          "Kamis, 13.00-15.30"
+        ],
+        "ruang": [
+          "K.206"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Fisika Mekanika-12",
+        "jadwal": [
+          "Kamis, 13.00-15.30"
+        ],
+        "ruang": [
+          "K.211-"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Fisika Mekanika-13",
+        "jadwal": [
+          "Selasa, 13.00-15.30"
+        ],
+        "ruang": [
+          "K.206"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Fisika Mekanika-14",
+        "jadwal": [
+          "Kamis, 16.00-18.30"
+        ],
+        "ruang": [
+          "S.202"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Fisika Mekanika-15",
+        "jadwal": [
+          "Kamis, 16.00-18.30"
+        ],
+        "ruang": [
+          "S.605"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Fisika Mekanika-16",
+        "jadwal": [
+          "Kamis, 13.00-15.30"
+        ],
+        "ruang": [
+          "S.101"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Fisika Mekanika-17",
+        "jadwal": [
+          "Kamis, 16.00-18.30"
+        ],
+        "ruang": [
+          "GK.307"
+        ],
+        "pengajar": []
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENFE600004",
+    "nama_mk": "Keberlanjutan,Kesehatan&Keselamatan Kerja",
+    "sks": 2,
+    "term": 5,
+    "kelas": [
+      {
+        "nama_kelas": "K4-01",
+        "jadwal": [
+          "Selasa, 10.00-11.40"
+        ],
+        "ruang": [
+          "K.201"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "K4-02",
+        "jadwal": [
+          "Rabu, 16.00-17.40"
+        ],
+        "ruang": [
+          "K.105"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "K4-03",
+        "jadwal": [
+          "Selasa, 10.00-11.40"
+        ],
+        "ruang": [
+          "S.102"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "k4-04",
+        "jadwal": [
+          "Selasa, 08.00-09.40"
+        ],
+        "ruang": [
+          "K.203"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "k4-05",
+        "jadwal": [
+          "Selasa, 10.00-11.40"
+        ],
+        "ruang": [
+          "K.205"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "K4-06",
+        "jadwal": [
+          "Selasa, 10.00-11.40"
+        ],
+        "ruang": [
+          "K.208"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "K4-07",
+        "jadwal": [
+          "Selasa, 13.00-14.40"
+        ],
+        "ruang": [
+          "K.201"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "K4-08",
+        "jadwal": [
+          "Selasa, 16.00-17.40"
+        ],
+        "ruang": [
+          "K.210"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "K4-09",
+        "jadwal": [
+          "Rabu, 16.00-17.40"
+        ],
+        "ruang": [
+          "S.404"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "K4-11",
+        "jadwal": [
+          "Selasa, 10.00-11.40"
+        ],
+        "ruang": [
+          "K.203"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "K4-12",
+        "jadwal": [
+          "Selasa, 10.00-11.40"
+        ],
+        "ruang": [
+          "K.104"
+        ],
+        "pengajar": []
+      }
+    ]
+  },
+  {
+    "kode_mk": "UIGE600004",
+    "nama_mk": "MPK Agama",
+    "sks": 2,
+    "term": 1,
+    "kelas": [
+      {
+        "nama_kelas": "Buddha",
+        "jadwal": [
+          "Rabu, 16.00-17.40"
+        ],
+        "ruang": [
+          "GK.306"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Hindu",
+        "jadwal": [
+          "Rabu, 16.00-17.40"
+        ],
+        "ruang": [
+          "GK.206"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Islam-01",
+        "jadwal": [
+          "Jumat, 10.00-11.40"
+        ],
+        "ruang": [
+          "K.105"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Islam-02",
+        "jadwal": [
+          "Jumat, 10.00-11.40"
+        ],
+        "ruang": [
+          "K.205"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Islam-03",
+        "jadwal": [
+          "Jumat, 10.00-11.40"
+        ],
+        "ruang": [
+          "S.201"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Islam-04",
+        "jadwal": [
+          "Jumat, 10.00-11.40"
+        ],
+        "ruang": [
+          "K.203"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Islam-05",
+        "jadwal": [
+          "Jumat, 10.00-11.40"
+        ],
+        "ruang": [
+          "S.401"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Islam-06",
+        "jadwal": [
+          "Jumat, 10.00-11.40"
+        ],
+        "ruang": [
+          "S.403"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Islam-07",
+        "jadwal": [
+          "Jumat, 13.00-14.40"
+        ],
+        "ruang": [
+          "S.303"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Islam-08",
+        "jadwal": [
+          "Jumat, 13.00-14.40"
+        ],
+        "ruang": [
+          "K.203"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Islam-09",
+        "jadwal": [
+          "Jumat, 13.00-14.40"
+        ],
+        "ruang": [
+          "S.501"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Islam-10",
+        "jadwal": [
+          "Jumat, 13.00-14.40"
+        ],
+        "ruang": [
+          "S.305"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Islam-11",
+        "jadwal": [
+          "Rabu, 16.00-17.40"
+        ],
+        "ruang": [
+          "S.401"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Islam-12",
+        "jadwal": [
+          "Jumat, 13.00-14.40"
+        ],
+        "ruang": [
+          "K.105"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Islam-13",
+        "jadwal": [
+          "Jumat, 16.00-17.40"
+        ],
+        "ruang": [
+          "S.401"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Islam-14",
+        "jadwal": [
+          "Jumat, 16.00-17.40"
+        ],
+        "ruang": [
+          "K.101"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Islam-15",
+        "jadwal": [
+          "Jumat, 16.00-17.40"
+        ],
+        "ruang": [
+          "S.403"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Islam-16",
+        "jadwal": [
+          "Jumat, 16.00-17.40"
+        ],
+        "ruang": [
+          "S.404"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Islam-17",
+        "jadwal": [
+          "Jumat, 16.00-17.40"
+        ],
+        "ruang": [
+          "K.201"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Islam-18",
+        "jadwal": [
+          "Jumat, 16.00-17.40"
+        ],
+        "ruang": [
+          "S.201"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Islam-19",
+        "jadwal": [
+          "Jumat, 16.00-17.40"
+        ],
+        "ruang": [
+          "S.102"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Islam-20",
+        "jadwal": [
+          "Jumat, 10.00-11.40"
+        ],
+        "ruang": [
+          "S.501"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Kong Hu Cu",
+        "jadwal": [
+          "Rabu, 16.00-17.40"
+        ],
+        "ruang": [
+          "S.602"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Kristen Katolik-01",
+        "jadwal": [
+          "Rabu, 13.00-14.40"
+        ],
+        "ruang": [
+          "dummy29"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Kristen Katolik-02",
+        "jadwal": [
+          "Rabu, 16.00-17.40"
+        ],
+        "ruang": [
+          "K.206"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Kristen Protestan-01",
+        "jadwal": [
+          "Rabu, 13.00-14.40"
+        ],
+        "ruang": [
+          "S.401"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Kristen Protestan-02",
+        "jadwal": [
+          "Rabu, 16.00-17.40"
+        ],
+        "ruang": [
+          "S.205"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Kristen Protestan-03",
+        "jadwal": [
+          "Rabu, 16.00-17.40"
+        ],
+        "ruang": [
+          "S.305"
+        ],
+        "pengajar": []
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENFE600001",
+    "nama_mk": "Pengantar Desain Teknik",
+    "sks": 2,
+    "term": 1,
+    "kelas": [
+      {
+        "nama_kelas": "Pengantar Desain-01",
+        "jadwal": [
+          "Kamis, 08.00-09.30"
+        ],
+        "ruang": [
+          "K.204"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Pengantar Desain-02",
+        "jadwal": [
+          "Kamis, 10.00-11.40"
+        ],
+        "ruang": [
+          "K.102"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Pengantar Desain-03",
+        "jadwal": [
+          "Kamis, 08.00-09.40"
+        ],
+        "ruang": [
+          "K.204-"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Pengantar Desain-04",
+        "jadwal": [
+          "Kamis, 10.00-11.40"
+        ],
+        "ruang": [
+          "K.211"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Pengantar Desain-05",
+        "jadwal": [
+          "Kamis, 10.00-11.40"
+        ],
+        "ruang": [
+          "K.102-"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Pengantar Desain-06",
+        "jadwal": [
+          "Kamis, 10.00-11.40"
+        ],
+        "ruang": [
+          "K.202"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Pengantar Desain-07",
+        "jadwal": [
+          "Kamis, 08.00-09.40"
+        ],
+        "ruang": [
+          "K.106"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Pengantar Desain-08",
+        "jadwal": [
+          "Kamis, 08.00-09.30"
+        ],
+        "ruang": [
+          "K.106--"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Pengantar Desain-09",
+        "jadwal": [
+          "Kamis, 08.00-09.30"
+        ],
+        "ruang": [
+          "K.202-"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Pengantar Desain-10",
+        "jadwal": [
+          "Kamis, 08.00-09.30"
+        ],
+        "ruang": [
+          "K.202"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Pengantar Desain-11",
+        "jadwal": [
+          "Kamis, 08.00-09.30"
+        ],
+        "ruang": [
+          "K.209"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Pengantar Desain-12",
+        "jadwal": [
+          "Kamis, 08.00-09.40"
+        ],
+        "ruang": [
+          "K.206"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Pengantar Desain-13",
+        "jadwal": [
+          "Kamis, 10.00-11.40"
+        ],
+        "ruang": [
+          "K.206"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Pengantar Desain-14",
+        "jadwal": [
+          "Kamis, 10.00-11.40"
+        ],
+        "ruang": [
+          "K.206-"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Pengantar Desain-15",
+        "jadwal": [
+          "Kamis, 10.00-11.40"
+        ],
+        "ruang": [
+          "S.202"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Pengantar Desain-16",
+        "jadwal": [
+          "Kamis, 08.00-09.40"
+        ],
+        "ruang": [
+          "K.102"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Pengantar Desain-17",
+        "jadwal": [
+          "Kamis, 16.00-17.40"
+        ],
+        "ruang": [
+          "S.603"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Pengantar Desain-18",
+        "jadwal": [
+          "Kamis, 08.00-09.40"
+        ],
+        "ruang": [
+          "S.401"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Pengantar Desain-19",
+        "jadwal": [
+          "Kamis, 10.00-11.40"
+        ],
+        "ruang": [
+          "S.304"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Pengantar Desain-20",
+        "jadwal": [
+          "Kamis, 10.00-11.40"
+        ],
+        "ruang": [
+          "S.402"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Pengantar Desain-21",
+        "jadwal": [
+          "Kamis, 10.00-11.40"
+        ],
+        "ruang": [
+          "K.203"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Pengantar Desain-22",
+        "jadwal": [
+          "Selasa, 10.00-11.40"
+        ],
+        "ruang": [
+          "S.304"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Pengantar Desain-23",
+        "jadwal": [
+          "Senin, 10.00-11.40"
+        ],
+        "ruang": [
+          "S.402"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Pengantar Desain-24",
+        "jadwal": [
+          "Rabu, 10.00-11.40"
+        ],
+        "ruang": [
+          "GK.303"
+        ],
+        "pengajar": [
+          "Prof. Dr.-Ing. Misri",
+          "Dr. Kenny Lischer, S.T., M.T."
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENCE601001",
+    "nama_mk": "Praktikum Fisika Dasar",
+    "sks": 1,
+    "term": 1,
+    "kelas": [
+      {
+        "nama_kelas": "Prak Fisika Dasar 5",
+        "jadwal": [
+          "Selasa, 07.00-09.55"
+        ],
+        "ruang": [
+          "Lab. ICELL LT.7D"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Prak Fisika Dasar 6",
+        "jadwal": [
+          "Senin, 15.00-18.00"
+        ],
+        "ruang": [
+          "Lab. ICELL LT.7D"
+        ],
+        "pengajar": []
+      }
+    ]
+  },
+  {
+    "kode_mk": "LWAN600707",
+    "nama_mk": "Hak-hak Khusus dalam Pemanfaatan Ruang",
+    "sks": 2,
+    "term": 5,
+    "kelas": [
+      {
+        "nama_kelas": "Reguler",
+        "jadwal": [
+          "Selasa, 11.00-12.40"
+        ],
+        "ruang": [
+          "2019 - Moot Court Hafni"
+        ],
+        "pengajar": [
+          "Dr. Harsanto Nursadi, S.H., M.Si."
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "UIGE600003",
+    "nama_mk": "MPK Bahasa Inggris",
+    "sks": 2,
+    "term": 1,
+    "kelas": [
+      {
+        "nama_kelas": "Tatap Muka 01A",
+        "jadwal": [
+          "Senin, 13.00-14.40"
+        ],
+        "ruang": [
+          "Kelas PMU B.401 PUSGIWA"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Tatap Muka 03A",
+        "jadwal": [
+          "Selasa, 08.00-09.40"
+        ],
+        "ruang": [
+          "Kelas PMU B.401 PUSGIWA"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "Tatap Muka 05C",
+        "jadwal": [
+          "Rabu, 13.00-14.40"
+        ],
+        "ruang": [
+          "Kelas PMU B.403 PUSGIWA"
+        ],
+        "pengajar": []
+      }
+    ]
+  },
+  {
+    "kode_mk": "PSPS609011",
+    "nama_mk": "Psikologi dalam Sehari-hari",
+    "sks": 3,
+    "term": 3,
+    "kelas": [
+      {
+        "nama_kelas": "SEM3(P)LF: PSIHARI B",
+        "jadwal": [
+          "Rabu, 16.00-18.30"
+        ],
+        "ruang": [
+          "H. 103"
+        ],
+        "pengajar": []
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENBM607041",
+    "nama_mk": "Teknologi Kedokteran Regeneratif",
+    "sks": 3,
+    "term": 7,
+    "kelas": [
+      {
+        "nama_kelas": "Tek. Kedokteran Reg.",
+        "jadwal": [
+          "Rabu, 13.00-15.30"
+        ],
+        "ruang": [
+          "GK.205"
+        ],
+        "pengajar": [
+          "Rizal Azis, S.Si., M. Biotech., M.Sc., Ph.D.",
+          "dr. Puspita Anggraini Katili, M.Sc., Ph.D."
+        ]
+      }
+    ]
+  }
+]
