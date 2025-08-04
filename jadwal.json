@@ -146,50 +146,36 @@
     "term": 3,
     "kelas": [
       {
-        "nama_kelas": "Analisis Vektor 01",
-        "jadwal": [
-          "Rabu, 08.00-09.40"
-        ],
-        "ruang": [
-          "S.607"
-        ],
-        "pengajar": [
-          "Prof. Eko Tjipto Rahardjo"
-        ]
-      },
-      {
-        "nama_kelas": "Analisis Vektor 02",
-        "jadwal": [
-          "Jumat, 13.00-14.40"
-        ],
-        "ruang": [
-          "S.604"
-        ],
-        "pengajar": [
-          "Prof. Eko Tjipto Rahardjo"
-        ]
-      },
-      {
-        "nama_kelas": "Analisis Vektor 03",
-        "jadwal": [
-          "Jumat, 13.00-14.40"
-        ],
-        "ruang": [
-          "GK.305"
-        ],
-        "pengajar": [
-          "Prof. Gunawan Wibisono"
-        ]
-      },
-      {
-        "nama_kelas": "No Class",
+        "nama_kelas": "Analisis Vektor",
         "jadwal": [
           "Rabu, 13.00-14.40"
         ],
         "ruang": [
           "dummy9"
         ],
-        "pengajar": []
+        "pengajar": [
+          "Prof. Eko Tjipto Rahardjo"
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE606244",
+    "nama_mk": "Antena dan Propagasi",
+    "sks": 3,
+    "term": 6,
+    "kelas": [
+      {
+        "nama_kelas": "Antena dan Propagasi",
+        "jadwal": [
+          "Selasa, 16.00-18.30"
+        ],
+        "ruang": [
+          "K.208"
+        ],
+        "pengajar": [
+          "Prof. Dr. Ir. Fitri Yuli Zulkifli, S.T., M.Sc."
+        ]
       }
     ]
   },
@@ -267,9 +253,7 @@
         "ruang": [
           "S.202"
         ],
-        "pengajar": [
-          "Dr. Prima Dewi Purnamasari, M.Sc., M.T."
-        ]
+        "pengajar": []
       },
       {
         "nama_kelas": "Berpikir Kompu-08",
@@ -279,9 +263,7 @@
         "ruang": [
           "S.203"
         ],
-        "pengajar": [
-          "Prof. Dr. Anak Agung Putri Ratna"
-        ]
+        "pengajar": []
       },
       {
         "nama_kelas": "Berpikir Kompu-09",
@@ -498,8 +480,7 @@
           "GK.205"
         ],
         "pengajar": [
-          "Tomy Abuzairi, M.Sc., Ph.D.",
-          "Prof. Retno Wigajatri Purnamaningsih"
+          "Tomy Abuzairi, M.Sc., Ph.D."
         ]
       }
     ]
@@ -539,21 +520,6 @@
           "Prof. Gunawan Wibisono",
           "Taufiq Alif Kurniawan, S.T., M.T."
         ]
-      },
-      {
-        "nama_kelas": "Desain Proyek TE2-03",
-        "jadwal": [
-          "Kamis, 16.00-18.30"
-        ],
-        "ruang": [
-          "dummy18"
-        ],
-        "pengajar": [
-          "Taufiq Alif Kurniawan, S.T., M.T.",
-          "Prof. Dadang Gunawan, Ph.D.",
-          "Prof. Gunawan Wibisono",
-          "Abdul Muis, M.Sc., Ph.D."
-        ]
       }
     ]
   },
@@ -564,14 +530,16 @@
     "term": 6,
     "kelas": [
       {
-        "nama_kelas": "No Class",
+        "nama_kelas": "Desan Rangkaian VLSI",
         "jadwal": [
           "Kamis, 07.00-09.30"
         ],
         "ruang": [
-          "K.105--"
+          "K.105"
         ],
-        "pengajar": []
+        "pengajar": [
+          "Prof. Dr.-Ing. Harry Sudibyo S."
+        ]
       }
     ]
   },
@@ -587,11 +555,11 @@
           "Jumat, 16.00-18.30"
         ],
         "ruang": [
-          "S.405 (PBL)"
+          "dummy2"
         ],
         "pengajar": [
-          "Tomy Abuzairi, M.Sc., Ph.D.",
-          "Dr. Djoko Hartanto,"
+          "Dr. Djoko Hartanto,",
+          "Tomy Abuzairi, M.Sc., Ph.D."
         ]
       }
     ]
@@ -659,18 +627,6 @@
         "pengajar": [
           "Fauzan Hanif Jufri, M.Sc."
         ]
-      },
-      {
-        "nama_kelas": "Distr &Instal Lis 02",
-        "jadwal": [
-          "Jumat, 16.00-18.30"
-        ],
-        "ruang": [
-          "K.206"
-        ],
-        "pengajar": [
-          "I Made Ardita, M.T."
-        ]
       }
     ]
   },
@@ -681,14 +637,16 @@
     "term": 4,
     "kelas": [
       {
-        "nama_kelas": "No Class",
+        "nama_kelas": "Elektromagnetika",
         "jadwal": [
           "Selasa, 07.00-09.30"
         ],
         "ruang": [
-          "GK.206--"
+          "GK.206"
         ],
-        "pengajar": []
+        "pengajar": [
+          "Prof. Eko Tjipto Rahardjo"
+        ]
       }
     ]
   },
@@ -799,18 +757,6 @@
         ]
       },
       {
-        "nama_kelas": "Inovasi Kewirausa 02",
-        "jadwal": [
-          "Selasa, 08.00-09.40"
-        ],
-        "ruang": [
-          "GK.305"
-        ],
-        "pengajar": [
-          "Faiz Husnayain, S.T., M.Sc., Ph.D."
-        ]
-      },
-      {
         "nama_kelas": "Inovasi Kewirausa 03",
         "jadwal": [
           "Senin, 08.00-09.40"
@@ -851,7 +797,7 @@
           "S.402"
         ],
         "pengajar": [
-          "Aji Nur Widyanto, S.T."
+          "Ir. Agus R. Utomo, M.T."
         ]
       },
       {
@@ -1089,10 +1035,10 @@
       {
         "nama_kelas": "Komunikasi Nirkabel",
         "jadwal": [
-          "Jumat, 08.00-09.40"
+          "Rabu, 16.00-18.30"
         ],
         "ruang": [
-          "K.108"
+          "GK.307"
         ],
         "pengajar": [
           "Ajib Setyo Arifin, S.T., Ph.D."
@@ -1121,6 +1067,13 @@
     ]
   },
   {
+    "kode_mk": "ENEE606033",
+    "nama_mk": "Magang",
+    "sks": 2,
+    "term": 6,
+    "kelas": []
+  },
+  {
     "kode_mk": "ENEE603007",
     "nama_mk": "Matematika Diskrit",
     "sks": 3,
@@ -1135,6 +1088,7 @@
           "S.603"
         ],
         "pengajar": [
+          "Prof. Dr. Ir. Muhamad Asvial, M.Eng.",
           "Prof. Gunawan Wibisono"
         ]
       },
@@ -1147,8 +1101,8 @@
           "K.210"
         ],
         "pengajar": [
-          "Abdul Halim",
-          "Naufan Raharya, S.T., M.T., Ph.D."
+          "Pandu Nugroho Prianto, M.Sc.",
+          "Abdul Halim"
         ]
       },
       {
@@ -1160,8 +1114,51 @@
           "K.203"
         ],
         "pengajar": [
-          "Abdul Halim",
-          "Ismi Rosyiana Fitri, S.T., Ph.D."
+          "Abdul Halim"
+        ]
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENEE602002",
+    "nama_mk": "Matematika Lanjut 1",
+    "sks": 2,
+    "term": 2,
+    "kelas": [
+      {
+        "nama_kelas": "Matematika Lanj 1 01",
+        "jadwal": [
+          "Jumat, 13.00-14.40"
+        ],
+        "ruang": [
+          "S.604"
+        ],
+        "pengajar": [
+          "Dr. Aries Subiantoro,"
+        ]
+      },
+      {
+        "nama_kelas": "Matematika Lanj 1 02",
+        "jadwal": [
+          "Jumat, 13.00-14.40"
+        ],
+        "ruang": [
+          "GK.305"
+        ],
+        "pengajar": [
+          "Naufan Raharya, S.T., M.T., Ph.D."
+        ]
+      },
+      {
+        "nama_kelas": "Matematika Lanj 1 03",
+        "jadwal": [
+          "Rabu, 08.00-09.40"
+        ],
+        "ruang": [
+          "S.607"
+        ],
+        "pengajar": [
+          "Dr. Aries Subiantoro,"
         ]
       }
     ]
@@ -1197,7 +1194,6 @@
           "S.502"
         ],
         "pengajar": [
-          "Prof. Dr. Ir. Muhamad Asvial, M.Eng.",
           "Taufiq Alif Kurniawan, S.T., M.T."
         ]
       },
@@ -1232,7 +1228,8 @@
           "S.606"
         ],
         "pengajar": [
-          "Dr.-Ing. Budi Sudiarto,"
+          "Prof. Dr. Ir. Rudy Setiabudy",
+          "Aji Nur Widyanto, S.T."
         ]
       },
       {
@@ -1244,7 +1241,8 @@
           "S.201"
         ],
         "pengajar": [
-          "Dr.-Ing. Budi Sudiarto,"
+          "Aji Nur Widyanto, S.T.",
+          "Prof. Dr. Ir. Rudy Setiabudy"
         ]
       },
       {
@@ -1256,7 +1254,8 @@
           "S.607"
         ],
         "pengajar": [
-          "Prof. Dr. Ir. Rudy Setiabudy"
+          "Prof. Dr. Ir. Rudy Setiabudy",
+          "Aji Nur Widyanto, S.T."
         ]
       }
     ]
@@ -1299,19 +1298,6 @@
         "pengajar": [
           "Naufan Raharya, S.T., M.T., Ph.D.",
           "Prof. Drs. Benyamin Kusumo Putro"
-        ]
-      },
-      {
-        "nama_kelas": "Pemodelan & ML-02",
-        "jadwal": [
-          "Selasa, 13.00-15.30"
-        ],
-        "ruang": [
-          "S.202"
-        ],
-        "pengajar": [
-          "Prof. Drs. Benyamin Kusumo Putro",
-          "Naufan Raharya, S.T., M.T., Ph.D."
         ]
       },
       {
@@ -1358,13 +1344,48 @@
     ]
   },
   {
+    "kode_mk": "ENEE603012",
+    "nama_mk": "Praktikum Instrumentasi dan Pengukuran",
+    "sks": 1,
+    "term": 3,
+    "kelas": []
+  },
+  {
+    "kode_mk": "ENEE603010",
+    "nama_mk": "Praktikum Rangkaian Listrik",
+    "sks": 1,
+    "term": 3,
+    "kelas": []
+  },
+  {
+    "kode_mk": "ENEE605024",
+    "nama_mk": "Praktikum Sistem Telekomunikasi",
+    "sks": 1,
+    "term": 5,
+    "kelas": []
+  },
+  {
+    "kode_mk": "ENEE605027",
+    "nama_mk": "Praktikum Teknik Kendali",
+    "sks": 1,
+    "term": 5,
+    "kelas": []
+  },
+  {
+    "kode_mk": "ENEE605029",
+    "nama_mk": "Praktikum Teknik Tenaga Listrik",
+    "sks": 1,
+    "term": 5,
+    "kelas": []
+  },
+  {
     "kode_mk": "ENEE607143",
     "nama_mk": "Proteksi Sistem Tenaga Listrik",
     "sks": 2,
     "term": 7,
     "kelas": [
       {
-        "nama_kelas": "Proteksi Sist TL 01",
+        "nama_kelas": "Proteksi Sistem TL",
         "jadwal": [
           "Selasa, 08.00-09.40"
         ],
@@ -1373,18 +1394,6 @@
         ],
         "pengajar": [
           "Fauzan Hanif Jufri, M.Sc."
-        ]
-      },
-      {
-        "nama_kelas": "Proteksi Sist TL 02",
-        "jadwal": [
-          "Selasa, 08.00-09.40"
-        ],
-        "ruang": [
-          "GK.206"
-        ],
-        "pengajar": [
-          "I Made Ardita, M.T."
         ]
       }
     ]
@@ -1408,18 +1417,6 @@
         ]
       },
       {
-        "nama_kelas": "Rang Elektronik 2-02",
-        "jadwal": [
-          "Rabu, 16.00-17.40"
-        ],
-        "ruang": [
-          "S.604"
-        ],
-        "pengajar": [
-          "Prof. Purnomo Sidi Priambodo, M.Sc., Ph.D."
-        ]
-      },
-      {
         "nama_kelas": "Rang Elektronik 2-03",
         "jadwal": [
           "Jumat, 13.00-14.40"
@@ -1428,9 +1425,7 @@
           "K.204"
         ],
         "pengajar": [
-          "Prof. Retno Wigajatri Purnamaningsih",
-          "Tomy Abuzairi, M.Sc., Ph.D.",
-          "Junivan Sulistianto, Ph.D."
+          "Prof. Dr.Eng. Arief Udhiarto, S.T., M.T."
         ]
       }
     ]
@@ -1457,7 +1452,7 @@
       {
         "nama_kelas": "Rangk Listrik 2-02",
         "jadwal": [
-          "Selasa, 16.00-17.40"
+          "Selasa, 16.00-18.30"
         ],
         "ruang": [
           "S.305"
@@ -1469,7 +1464,7 @@
       {
         "nama_kelas": "Rangk Listrik 2-03",
         "jadwal": [
-          "Rabu, 16.00-17.40"
+          "Rabu, 16.00-18.30"
         ],
         "ruang": [
           "K.202"
@@ -1479,6 +1474,13 @@
         ]
       }
     ]
+  },
+  {
+    "kode_mk": "ENEE607035",
+    "nama_mk": "Seminar",
+    "sks": 2,
+    "term": 7,
+    "kelas": []
   },
   {
     "kode_mk": "ENEE607464",
@@ -1515,30 +1517,17 @@
           "K.210"
         ],
         "pengajar": [
-          "Abdul Muis, M.Sc., Ph.D.",
-          "Tomy Abuzairi, M.Sc., Ph.D."
-        ]
-      },
-      {
-        "nama_kelas": "Sistem Embedded 2-02",
-        "jadwal": [
-          "Jumat, 13.00-15.30"
-        ],
-        "ruang": [
-          "S.504"
-        ],
-        "pengajar": [
-          "Abdul Muis, M.Sc., Ph.D.",
-          "Tomy Abuzairi, M.Sc., Ph.D."
+          "Tomy Abuzairi, M.Sc., Ph.D.",
+          "Abdul Muis, M.Sc., Ph.D."
         ]
       },
       {
         "nama_kelas": "Sistem Embedded 2-03",
         "jadwal": [
-          "Selasa, 13.00-15.30"
+          "Jumat, 13.00-15.30"
         ],
         "ruang": [
-          "K.207"
+          "K.102"
         ],
         "pengajar": [
           "Tomy Abuzairi, M.Sc., Ph.D."
@@ -1596,10 +1585,10 @@
       {
         "nama_kelas": "Sistem Radar",
         "jadwal": [
-          "Kamis, 08.00-09.40"
+          "Senin, 16.00-18.30"
         ],
         "ruang": [
-          "K.105"
+          "GK.304"
         ],
         "pengajar": [
           "Prof. Eko Tjipto Rahardjo"
@@ -1629,21 +1618,6 @@
         ]
       },
       {
-        "nama_kelas": "Sis Telekomunikas 02",
-        "jadwal": [
-          "Rabu, 13.00-14.40",
-          "Kamis, 10.00-11.40"
-        ],
-        "ruang": [
-          "S.605",
-          "S.601"
-        ],
-        "pengajar": [
-          "Prof. Gunawan Wibisono",
-          "Prof. Dr. Ir. Fitri Yuli Zulkifli, S.T., M.Sc."
-        ]
-      },
-      {
         "nama_kelas": "Sis Telekomunikas 03",
         "jadwal": [
           "Senin, 08.00-09.40",
@@ -1666,26 +1640,39 @@
     "term": 6,
     "kelas": [
       {
-        "nama_kelas": "No Class",
+        "nama_kelas": "Sistem TL-01",
         "jadwal": [
           "Jumat, 07.00-09.55"
         ],
         "ruang": [
-          "K.108-"
+          "K.108"
         ],
-        "pengajar": []
+        "pengajar": [
+          "Ismi Rosyiana Fitri, S.T., Ph.D.",
+          "I Made Ardita, M.T."
+        ]
       },
       {
-        "nama_kelas": "No Class",
+        "nama_kelas": "Sistem TL-02",
         "jadwal": [
           "Jumat, 13.00-15.30"
         ],
         "ruang": [
-          "GK.304--"
+          "GK.304"
         ],
-        "pengajar": []
+        "pengajar": [
+          "Ismi Rosyiana Fitri, S.T., Ph.D.",
+          "I Made Ardita, M.T."
+        ]
       }
     ]
+  },
+  {
+    "kode_mk": "ENEE608036",
+    "nama_mk": "Skripsi",
+    "sks": 4,
+    "term": 8,
+    "kelas": []
   },
   {
     "kode_mk": "ENEE605026",
@@ -1705,20 +1692,6 @@
         ],
         "pengajar": [
           "Dr. Aries Subiantoro,"
-        ]
-      },
-      {
-        "nama_kelas": "Teknik Kendali-02",
-        "jadwal": [
-          "Senin, 10.00-11.40",
-          "Kamis, 16.00-17.40"
-        ],
-        "ruang": [
-          "S.502",
-          "S.501"
-        ],
-        "pengajar": [
-          "Naufan Raharya, S.T., M.T., Ph.D."
         ]
       },
       {
@@ -1757,32 +1730,17 @@
           "Dr.-Ing. Budi Sudiarto,",
           "Aji Nur Widyanto, S.T."
         ]
-      },
-      {
-        "nama_kelas": "Tek Tegang Tinggi 02",
-        "jadwal": [
-          "Kamis, 19.00-20.40",
-          "Jumat, 07.00-09.30"
-        ],
-        "ruang": [
-          "Lab.DTE-",
-          "GK.304"
-        ],
-        "pengajar": [
-          "Fahmi Firdaus Angkasa, M.Sc.",
-          "Dr.-Ing. Budi Sudiarto,"
-        ]
       }
     ]
   },
   {
-    "kode_mk": "ENEE607371",
-    "nama_mk": "Topik Khusus Elektronika 2",
+    "kode_mk": "ENEE606370",
+    "nama_mk": "Topik Khusus Elektronika 1",
     "sks": 2,
-    "term": 7,
+    "term": 6,
     "kelas": [
       {
-        "nama_kelas": "Topsus Elektronika 2",
+        "nama_kelas": "Topsus Elektronika 1",
         "jadwal": [
           "Rabu, 13.00-14.40"
         ],
@@ -1790,56 +1748,37 @@
           "GK.307"
         ],
         "pengajar": [
-          "Prof. Dr.-Ing. Harry Sudibyo S.",
-          "Prof. Retno Wigajatri Purnamaningsih"
+          "Prof. Retno Wigajatri Purnamaningsih",
+          "Prof. Dr.-Ing. Harry Sudibyo S."
         ]
       }
     ]
   },
   {
-    "kode_mk": "ENEE607473",
-    "nama_mk": "Topik Khusus Kendali 2",
+    "kode_mk": "ENEE606268",
+    "nama_mk": "Topik Khusus Telekomunikasi 1",
     "sks": 2,
-    "term": 7,
+    "term": 6,
     "kelas": [
       {
-        "nama_kelas": "Topsus Kendali 2",
-        "jadwal": [
-          "Kamis, 13.00-14.40"
-        ],
-        "ruang": [
-          "S.204"
-        ],
-        "pengajar": [
-          "Abdul Muis, M.Sc., Ph.D.",
-          "Wahidin Wahab, Ph.D."
-        ]
-      }
-    ]
-  },
-  {
-    "kode_mk": "ENEE607269",
-    "nama_mk": "Topik Khusus Telekomunikasi 2",
-    "sks": 2,
-    "term": 7,
-    "kelas": [
-      {
-        "nama_kelas": "Topsus Telekom 2",
-        "jadwal": [
-          "Jumat, 08.00-09.40"
-        ],
-        "ruang": [
-          "GK.302"
-        ],
-        "pengajar": []
-      },
-      {
-        "nama_kelas": "Topsus Telkom 2",
+        "nama_kelas": "Topisus Telekom 1-01",
         "jadwal": [
           "Jumat, 08.00-09.40"
         ],
         "ruang": [
           "K.203"
+        ],
+        "pengajar": [
+          "Ajib Setyo Arifin, S.T., Ph.D."
+        ]
+      },
+      {
+        "nama_kelas": "Topsus Telekom 1-02",
+        "jadwal": [
+          "Jumat, 08.00-09.40"
+        ],
+        "ruang": [
+          "GK.302"
         ],
         "pengajar": [
           "Prof. Dr. Ir. Fitri Yuli Zulkifli, S.T., M.Sc."
@@ -1848,13 +1787,13 @@
     ]
   },
   {
-    "kode_mk": "ENEE607167",
-    "nama_mk": "Topik Khusus Tenaga Listrik 2",
+    "kode_mk": "ENEE606166",
+    "nama_mk": "Topik Khusus Tenaga Listrik 1",
     "sks": 2,
-    "term": 7,
+    "term": 6,
     "kelas": [
       {
-        "nama_kelas": "Topsus Tenaga L 2-01",
+        "nama_kelas": "Topsus TL 1-01",
         "jadwal": [
           "Selasa, 08.00-09.40"
         ],
@@ -1862,19 +1801,20 @@
           "S.501"
         ],
         "pengajar": [
-          "Ir. Amien Rahardjo, M.T."
+          "I Made Ardita, M.T."
         ]
       },
       {
-        "nama_kelas": "Topsus Tenaga L 2-02",
+        "nama_kelas": "Topsus TL 1-02",
         "jadwal": [
           "Selasa, 08.00-09.40"
         ],
         "ruang": [
-          "S.602"
+          "S.602-"
         ],
         "pengajar": [
-          "Ir. Agus R. Utomo, M.T."
+          "Prof. Dr. Ir. Rudy Setiabudy",
+          "Aji Nur Widyanto, S.T."
         ]
       }
     ]
@@ -2464,6 +2404,13 @@
     ]
   },
   {
+    "kode_mk": "UIGE600003",
+    "nama_mk": "MPK Bahasa Inggris",
+    "sks": 2,
+    "term": 1,
+    "kelas": []
+  },
+  {
     "kode_mk": "ENFE600001",
     "nama_mk": "Pengantar Desain Teknik",
     "sks": 2,
@@ -2668,7 +2615,15 @@
           "S.402"
         ],
         "pengajar": []
-      },
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENFE600001",
+    "nama_mk": "Pengantar Desain Teknik",
+    "sks": 2,
+    "term": 1,
+    "kelas": [
       {
         "nama_kelas": "Pengantar Desain-21",
         "jadwal": [
@@ -2698,7 +2653,15 @@
           "S.402"
         ],
         "pengajar": []
-      },
+      }
+    ]
+  },
+  {
+    "kode_mk": "ENFE600001",
+    "nama_mk": "Pengantar Desain Teknik",
+    "sks": 2,
+    "term": 1,
+    "kelas": [
       {
         "nama_kelas": "Pengantar Desain-24",
         "jadwal": [
@@ -2743,58 +2706,110 @@
     ]
   },
   {
-    "kode_mk": "LWAN600707",
-    "nama_mk": "Hak-hak Khusus dalam Pemanfaatan Ruang",
-    "sks": 2,
-    "term": 5,
+    "kode_mk": "PSPS609001",
+    "nama_mk": "Bimbingan Pendidikan",
+    "sks": 3,
+    "term": 3,
     "kelas": [
       {
-        "nama_kelas": "Reguler",
+        "nama_kelas": "SEM 3(P): BIDIK (A)",
         "jadwal": [
-          "Selasa, 11.00-12.40"
+          "Selasa, 16.00-18.30"
         ],
         "ruang": [
-          "2019 - Moot Court Hafni"
+          "H. 107"
         ],
-        "pengajar": [
-          "Dr. Harsanto Nursadi, S.H., M.Si."
-        ]
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "SEM 3(P): BIDIK (B)",
+        "jadwal": [
+          "Selasa, 16.00-18.30"
+        ],
+        "ruang": [
+          "H. 106"
+        ],
+        "pengajar": []
       }
     ]
   },
   {
-    "kode_mk": "UIGE600003",
-    "nama_mk": "MPK Bahasa Inggris",
-    "sks": 2,
-    "term": 1,
+    "kode_mk": "PSPS609041",
+    "nama_mk": "Dinamika Kelompok",
+    "sks": 3,
+    "term": 5,
     "kelas": [
       {
-        "nama_kelas": "Tatap Muka 01A",
+        "nama_kelas": "SEM 5(P) LF: DINKEL",
         "jadwal": [
-          "Senin, 13.00-14.40"
+          "Rabu, 16.00-18.30"
         ],
         "ruang": [
-          "Kelas PMU B.401 PUSGIWA"
+          "H. 104"
+        ],
+        "pengajar": []
+      }
+    ]
+  },
+  {
+    "kode_mk": "PSPS609006",
+    "nama_mk": "Manusia & Masyarakat Indonesia",
+    "sks": 3,
+    "term": 3,
+    "kelas": [
+      {
+        "nama_kelas": "SEM 3(P) LF: MMI (A)",
+        "jadwal": [
+          "Selasa, 16.00-18.30"
+        ],
+        "ruang": [
+          "H. 105"
         ],
         "pengajar": []
       },
       {
-        "nama_kelas": "Tatap Muka 03A",
+        "nama_kelas": "SEM 3(P) LF: MMI (B)",
         "jadwal": [
-          "Selasa, 08.00-09.40"
+          "Rabu, 16.00-18.30"
         ],
         "ruang": [
-          "Kelas PMU B.401 PUSGIWA"
+          "H. 302"
         ],
         "pengajar": []
-      },
+      }
+    ]
+  },
+  {
+    "kode_mk": "PSPS609043",
+    "nama_mk": "Metakognisi",
+    "sks": 3,
+    "term": 3,
+    "kelas": [
       {
-        "nama_kelas": "Tatap Muka 05C",
+        "nama_kelas": "SEM 5(P) LF: METAKOG",
         "jadwal": [
-          "Rabu, 13.00-14.40"
+          "Senin, 16.00-18.30"
         ],
         "ruang": [
-          "Kelas PMU B.403 PUSGIWA"
+          "H. 102"
+        ],
+        "pengajar": []
+      }
+    ]
+  },
+  {
+    "kode_mk": "PSPS609008",
+    "nama_mk": "Pengasuhan dan Pengembangan Anak Usia Dini",
+    "sks": 3,
+    "term": 3,
+    "kelas": [
+      {
+        "nama_kelas": "SEM 3(P) LF: PPAUD",
+        "jadwal": [
+          "Senin, 16.00-18.30"
+        ],
+        "ruang": [
+          "H. 103"
         ],
         "pengajar": []
       }
@@ -2806,6 +2821,16 @@
     "sks": 3,
     "term": 3,
     "kelas": [
+      {
+        "nama_kelas": "SEM3(P)LF: PSIHARI A",
+        "jadwal": [
+          "Selasa, 16.00-18.30"
+        ],
+        "ruang": [
+          "H. 102"
+        ],
+        "pengajar": []
+      },
       {
         "nama_kelas": "SEM3(P)LF: PSIHARI B",
         "jadwal": [
@@ -2819,23 +2844,184 @@
     ]
   },
   {
-    "kode_mk": "ENBM607041",
-    "nama_mk": "Teknologi Kedokteran Regeneratif",
+    "kode_mk": "PSPS609026",
+    "nama_mk": "Psikologi dan Budaya",
     "sks": 3,
-    "term": 7,
+    "term": 4,
     "kelas": [
       {
-        "nama_kelas": "Tek. Kedokteran Reg.",
+        "nama_kelas": "SEM 5(P)LF: BUDAYA A",
         "jadwal": [
-          "Rabu, 13.00-15.30"
+          "Selasa, 16.00-18.30"
         ],
         "ruang": [
-          "GK.205"
+          "H. 215"
         ],
-        "pengajar": [
-          "Rizal Azis, S.Si., M. Biotech., M.Sc., Ph.D.",
-          "dr. Puspita Anggraini Katili, M.Sc., Ph.D."
-        ]
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "SEM 5(P)LF: BUDAYA B",
+        "jadwal": [
+          "Kamis, 16.00-18.30"
+        ],
+        "ruang": [
+          "H. 104"
+        ],
+        "pengajar": []
+      }
+    ]
+  },
+  {
+    "kode_mk": "PSPS609046",
+    "nama_mk": "Psikologi Forensik",
+    "sks": 3,
+    "term": 5,
+    "kelas": [
+      {
+        "nama_kelas": "SEM 3(P)LF: FORENSIK",
+        "jadwal": [
+          "Kamis, 16.00-18.30"
+        ],
+        "ruang": [
+          "H. 103"
+        ],
+        "pengajar": []
+      }
+    ]
+  },
+  {
+    "kode_mk": "PSPS609013",
+    "nama_mk": "Psikologi Komunikasi",
+    "sks": 3,
+    "term": 3,
+    "kelas": [
+      {
+        "nama_kelas": "SEM 3(P)LF: PSIKOM A",
+        "jadwal": [
+          "Senin, 16.00-18.30"
+        ],
+        "ruang": [
+          "H. 106"
+        ],
+        "pengajar": []
+      },
+      {
+        "nama_kelas": "SEM 3(P)LF: PSIKOM B",
+        "jadwal": [
+          "Kamis, 16.00-18.30"
+        ],
+        "ruang": [
+          "H. 102"
+        ],
+        "pengajar": []
+      }
+    ]
+  },
+  {
+    "kode_mk": "PSPS609049",
+    "nama_mk": "Psikologi Konsumen",
+    "sks": 3,
+    "term": 3,
+    "kelas": [
+      {
+        "nama_kelas": "SEM 3(P)LF: KONSUMEN",
+        "jadwal": [
+          "Kamis, 16.00-18.30"
+        ],
+        "ruang": [
+          "H. 106"
+        ],
+        "pengajar": []
+      }
+    ]
+  },
+  {
+    "kode_mk": "PSPS609035",
+    "nama_mk": "Psikologi Lintas Budaya",
+    "sks": 3,
+    "term": 4,
+    "kelas": [
+      {
+        "nama_kelas": "SEM 3(P) LF: LINBUD",
+        "jadwal": [
+          "Senin, 16.00-18.30"
+        ],
+        "ruang": [
+          "H. 104"
+        ],
+        "pengajar": []
+      }
+    ]
+  },
+  {
+    "kode_mk": "PSPS609051",
+    "nama_mk": "Psikologi Pendidikan Anak Berbakat",
+    "sks": 3,
+    "term": 3,
+    "kelas": [
+      {
+        "nama_kelas": "SEM 5(P) LF: BAKAT",
+        "jadwal": [
+          "Selasa, 16.00-18.30"
+        ],
+        "ruang": [
+          "H. 205"
+        ],
+        "pengajar": []
+      }
+    ]
+  },
+  {
+    "kode_mk": "PSPS609015",
+    "nama_mk": "Psikologi Pendidikan Karir",
+    "sks": 3,
+    "term": 3,
+    "kelas": [
+      {
+        "nama_kelas": "SEM 3(P)LF: PENDIKAR",
+        "jadwal": [
+          "Rabu, 16.00-18.30"
+        ],
+        "ruang": [
+          "H. 105"
+        ],
+        "pengajar": []
+      }
+    ]
+  },
+  {
+    "kode_mk": "PSPS609036",
+    "nama_mk": "Psikologi Perempuan dan Gender",
+    "sks": 3,
+    "term": 3,
+    "kelas": [
+      {
+        "nama_kelas": "SEM5(P)LF:GENDER(EN)",
+        "jadwal": [
+          "Rabu, 16.00-18.30"
+        ],
+        "ruang": [
+          "H. 107"
+        ],
+        "pengajar": []
+      }
+    ]
+  },
+  {
+    "kode_mk": "PSPS609067",
+    "nama_mk": "Psikologi Positif",
+    "sks": 3,
+    "term": 6,
+    "kelas": [
+      {
+        "nama_kelas": "SEM 3(P) LF: POSITIF",
+        "jadwal": [
+          "Rabu, 16.00-18.30"
+        ],
+        "ruang": [
+          "H. 106"
+        ],
+        "pengajar": []
       }
     ]
   }
